@@ -187,7 +187,7 @@ The third and fourth weeks were the core of the brain-hacking adventure and taug
 * Deeper understanding of machine learning
 * Open science tools and practices
 
-While we weren't able to incorporate all of the tools that we had hoped to use in our project, we are grateful to have been exposed to them. Knowing where we can find [helpful online resources](https://school2020.brainhackmtl.org/schedule/) on all of the topics covered, we hope to slowly integrate what we've learned into our own work, post-BrainHack.
+While we weren't able to incorporate all of the tools that we had hoped to use in our project, we are grateful to have been exposed to them. Knowing where we can find [helpful online resources](https://psy6983.brainhackmtl.org/schedule/) on all of the topics covered, we hope to slowly integrate what we've learned into our own work, post-BrainHack.
 
 We would like to thank the course organizers and our instructors who spent a lot of time helping us with of our project and generally enlightening us:
 

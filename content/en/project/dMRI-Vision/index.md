@@ -167,7 +167,7 @@ The BrainHack Summer School 2020 provided a theoretical framework as well as an 
 Thanks to the wonderful BrainHack Summer School 2020 for this experience as well as all the excellent ressources provided!
 I would like to thank my instructors Noor and Benjamin for their advice and for providing specific ressources for this project. Special thanks to my instructor Greg who originally developed the python scripts and docker images I used and invested a lot of time to help and contribute to this project. I would also like to thank my new friend and coding partner Daniel and my friend Simon who was a great study buddy throughout the summer school!
 
-Be sure to check out the other cool projects from the BrainHack Summer School 2020 [here](https://school2020.brainhackmtl.org/project/)!
+Be sure to check out the other cool projects from the BrainHack Summer School 2020 [here](https://psy6983.brainhackmtl.org/project/)!
 
 ## References
 1. Abraham, A., Pedregosa1, F., Eickenberg1, M.,  Gervais, P., Mueller, A., Kossaifi, J., Gramfort, A., Thirion, B., Varoquaux, G. (2014). Machine learning for neuroimaging with scikit-learn. Frontiers in Neuroinformatics 8: 14. https://doi.org/10.3389/fninf.2014.00014 (for using nilearn)

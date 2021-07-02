@@ -146,7 +146,7 @@ As both the tone and the syllable share the same F0 contour, it is worth emphazi
 
 ## Project Deliverables
 
- - [Project in the Gallery of the BHS website](https://school2020.brainhackmtl.org/project/EEG-FFR-Classification)
+ - [Project in the Gallery of the BHS website](https://psy6983.brainhackmtl.org/project/EEG-FFR-Classification)
  - Project Report ([README.md File](https://github.com/brainhack-school2020/ArsIsabelle_BHS_Project/edit/master/README.md))
 
  - [Video Introduction on this project](https://www.youtube.com/watch?v=6lX_-AgOXug) 
