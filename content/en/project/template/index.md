@@ -73,7 +73,7 @@ You are currently reading the report template! I will let you judge whether it i
 
 #### Deliverable 2: project gallery
 
-There is not yet a project gallery, as BHS 2020 is the first edition that will incorporate it on the website. You can still check out the [2019 BHS github organization](https://github.com/mtl-brainhack-school-2019)
+You can check out the [2020 BrainHack School project gallery](https://school2020.brainhackmtl.org/)
 
 ##### ECG pupilometry pipeline by Marce Kauffmann
 

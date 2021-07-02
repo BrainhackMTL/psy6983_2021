@@ -1,7 +1,7 @@
 baseurl: 'https://school2020.brainhackmtl.org'
 title: 'PSY6983'
 theme: hugo-universal-theme
-defaultContentLanguage: fr
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: FALSE
 
 outputFormats:
@@ -164,39 +164,45 @@ languages:
     menu:
       main:
         - identifier: home
-          name: Accueil
+          name: Home
           url: /
           weight: 1
         - identifier: Schedule
-          name: Horaire
+          name: Schedule
           url: /schedule/
           weight: 2
-        - identifier: Weeks
-          name: Semaines
-          url: /weeks/
-          weight: 2
-        - identifier: Locations
-          name: Sites
-          url: /locations/
+        - identifier: Projects
+          name: Projects
+          url: /project/
           weight: 3
-        - identifier: Register
-          name: S'inscrire
-          url: /register/
+        - identifier: Weeks
+          name: Weeks
+          url: /weeks/
           weight: 4
+        - identifier: Locations
+          name: Locations
+          url: /locations/
+          weight: 5
+        - identifier: Register
+          name: Register
+          url: /register/
+          weight: 6
         - identifier: documents
           name: Documents
-          weight: 6
-          url: /guide/
-
-        - parent: documents
-          name: Getting started Guide
-          url: /fr/guide/
           weight: 7
-
+          url: /guide/
         - parent: documents
-          name: Code de conduite
-          url: /coc/
+          name: Installation
+          url: /setup/
           weight: 8
+        - parent: documents
+          name: Getting started
+          url: /guide/
+          weight: 9
+        - parent: documents
+          name: Project Guide
+          url: /project_guide
+          weight: 10
       topbar:
         - weight: 1
           name: GitHub
