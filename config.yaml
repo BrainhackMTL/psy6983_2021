@@ -139,8 +139,8 @@ languages:
         icon: far fa-file-alt
         title: 'Project-based, transdisciplinary training'
         subtitle: 'Neuroscience, Statistical Modelling and Computer Science'
-        link_url: /register
-        link_text: "Registration will open soon for 2021! You can watch all the 2020 lectures in the meatime :)"
+        link_url: https://www.youtube.com/watch?v=z10TgOf08s0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72
+        link_text: "You can watch all the 2020 lectures on youtube"
         video: https://www.youtube.com/embed/PTYs_JFKsHI?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72
       clients:
         enable: true
@@ -151,7 +151,7 @@ languages:
         title: Project gallery
         subtitle: A selection of projects from our students
       topbar:
-        enable: true
+        enable: false
         text: "**:computer: :brain: [Registrations](/register) will open soon for the 2021 edition! :brain: :computer:**: "
 
 
@@ -270,8 +270,8 @@ languages:
         icon: far fa-file-alt
         title: 'Formation transdisciplinaire axée sur les projets'
         subtitle: 'Neurosciences, Modélisation statistique et Sciences informatiques'
-        link_url: /register
-        link_text: Inscrivez-vous maintenant
+        link_url: https://www.youtube.com/watch?v=z10TgOf08s0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72
+        link_text: "Vous pouvez accéder à toutes les présentations 2020 sur youtube"
       clients:
         enable: true
         title: Institutions partenaires
@@ -281,7 +281,7 @@ languages:
         title: Project gallery
         subtitle: A selection of projects from our students
       topbar:
-        enable: true
+        enable: false
         text: "**:computer: :brain: Les [inscriptions](/register) ouvriront bientôt pour l'édition 2021! :brain: :computer:**"
 
 Permalinks:

@@ -4,7 +4,7 @@
 ####################################################
 
 
-agenda_title: This is the <u>2020</u> Schedule... 2021 schedule will be released ~2 weeks before the start date.
+agenda_title: This is the <u>2020</u> Schedule... Stay tuned for brainhack school 2022.
 agenda_subtitle: >
   This gives you an overview of what we did in 2020. All the videos are still available in the schedule.
   The schedule will be updated here, reminders will be posted in **[#schedule on Slack](https://brainhack-school2020.slack.com/archives/C0127A3QJTX)**, including the Zoom links and password. You can even
@@ -432,7 +432,7 @@ schedule:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       description:
       materials: "[Slides](https://docs.google.com/presentation/d/1JveXaq9rbCGvZerChVUdnKrbnezfX2p4_NVsSaAMLdg/edit#slide=id.g805a22c898_0_236)"
-      video: "[Video](https://youtu.be/-g_I8OFKtrI?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"    
+      video: "[Video](https://youtu.be/-g_I8OFKtrI?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       instructors:
         - Pierre Bellec
 
@@ -562,7 +562,7 @@ schedule:
     - title: Parallel sessions - Instructor clinic (group A) and Peer clinic (group B)
       dateStart:  2020-05-20T13:00:00-04:00
       dateEnd:    2020-05-20T14:00:00-04:00
-      linktosession: 
+      linktosession:
       description: One-on-one meeting with your assigned instructor (group A) and clinic with fellow participants (group B)
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -651,7 +651,7 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Project presentations - Group B Parallel sessions 
+    - title: Project presentations - Group B Parallel sessions
       dateStart:  2020-05-21T13:00:00-04:00
       dateEnd:    2020-05-21T15:00:00-04:00
       linktosession: https://docs.google.com/document/d/1y3fPwKEDwVnOCunyxTnDpp2zVdO1GMw-Sp6Rx2mwhoY/edit#
@@ -706,7 +706,7 @@ schedule:
       description: Participants interested in fMRIprep can watch this [video](https://www.youtube.com/watch?v=WTcucXAAVBU) and get in touch with Basile Pinsard on slack if they have questions.
       materials: "[Slides](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing)"
       video: "[Video](https://youtu.be/7uMVRebuDZo?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
-   
+
     - title: Free hacking
       dateStart:  2020-05-22T10:00:00-04:00
       dateEnd:    2020-05-22T12:00:00-04:00
@@ -720,7 +720,7 @@ schedule:
     - title: "Lunch"
       dateStart:  2020-05-22T12:00:00-04:00
       dateEnd:    2020-05-22T13:00:00-04:00
-      linktosession: 
+      linktosession:
       description: "Don't forget the #snack-club!"
       topic: 4 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -758,7 +758,7 @@ schedule:
       dateEnd:   2020-05-25T09:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         A brief review of our goals and schedule for the week
       instructors:
         - Tristan Glatard
@@ -767,7 +767,7 @@ schedule:
       dateEnd:   2020-05-25T10:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         How to create awesome data visualizations and videos
       instructors:
         - Agah Karakuzu
@@ -776,21 +776,21 @@ schedule:
     #   dateEnd:   2020-05-25T10:30:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Yoga"
       dateStart: 2020-05-25T10:30:00-04:00
       dateEnd:   2020-05-25T11:00:00-04:00
       linktosession: https://zoom.us/j/98404139023
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Online yoga class.
     - title: "Free hacking"
       dateStart: 2020-05-25T11:00:00-04:00
       dateEnd:   2020-05-25T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
@@ -810,16 +810,16 @@ schedule:
     #   dateEnd:   2020-05-25T15:15:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-25T15:15:00-04:00
       dateEnd:   2020-05-25T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
-    
+
   ################################
   ###########  TUESDAY ############
   ################################
@@ -832,24 +832,24 @@ schedule:
       materials: "[Jupyter Notebook](https://github.com/glatard/containers/blob/master/Containers%20are%20not%20magic.ipynb)"
       video: "[Video](https://youtu.be/UFE1D8PBK1A?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Understanding containers and how to use them
       instructors:
         - Tristan Glatard
-      
+
     # - title: "Virtual coffee break"
     #   dateStart: 2020-05-26T10:00:00-04:00
     #   dateEnd:   2020-05-26T10:15:00-04:00
     #   linktosession:
     #   topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-26T10:15:00-04:00
       dateEnd:   2020-05-26T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
@@ -869,14 +869,14 @@ schedule:
     #   dateEnd:   2020-05-26T15:15:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-26T15:15:00-04:00
       dateEnd:   2020-05-26T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
 
   ################################
@@ -891,7 +891,7 @@ schedule:
       materials: "[Slides](https://docs.google.com/presentation/d/1J0x3ahRCOx7cnyUq_EfueIaFM8-tze0V9rX-ECKJ65k/edit?usp=sharing) & [GitHub repository for the hands-on part](https://github.com/gkiar/intro2testing)"
       video: "[Video](https://youtu.be/VibDC49ZAJE?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Why and how to test your software
       instructors:
         - Greg Kiar
@@ -900,14 +900,14 @@ schedule:
     #   dateEnd:   2020-05-27T10:15:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-27T10:15:00-04:00
       dateEnd:   2020-05-27T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
@@ -927,21 +927,21 @@ schedule:
       dateEnd:   2020-05-27T15:30:00-04:00
       linktosession: https://zoom.us/j/97532541804
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Online yoga class.
     # - title: "Virtual coffee break"
     #   dateStart: 2020-05-27T15:30:00-04:00
     #   dateEnd:   2020-05-27T15:45:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-27T15:45:00-04:00
       dateEnd:   2020-05-27T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
 
   ################################
@@ -955,7 +955,7 @@ schedule:
       materials: "[Slides](https://docs.google.com/presentation/d/18aMOZBbKEKTHtiZZA5bRPOBwxOVoPLRT1c5FaQZYLQI/edit#slide=id.p)"
       video: "[Video](https://youtu.be/f2quLtfcQoQ?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         How to package your code
       instructors:
         - Valerie Hayot-Sasson
@@ -964,14 +964,14 @@ schedule:
     #   dateEnd:   2020-05-28T10:15:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-28T10:15:00-04:00
       dateEnd:   2020-05-28T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
@@ -991,21 +991,21 @@ schedule:
     #   dateEnd:   2020-05-28T15:15:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-28T15:15:00-04:00
       dateEnd:   2020-05-28T18:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
     - title: "Virtual social (optional)"
       dateStart: 2020-05-28T18:00:00-04:00
       dateEnd:   2020-05-28T21:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-  
+
   ################################
   ###########  FRIDAY ############
   ################################
@@ -1017,7 +1017,7 @@ schedule:
       materials: "[Slides by Joel Grus](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g362da58057_0_1) / [Jupyter Notebook](https://github.com/gkiar/Biosignal-Emotions-BHS-2020/blob/master/Greg_demo.ipynb)"
       video: "[Video](https://youtu.be/zpOQENxs1G4?list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72)"
       topic: 1 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         How to write scripts
       instructors:
         - Greg Kiar
@@ -1026,21 +1026,21 @@ schedule:
       dateEnd:   2020-05-29T10:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Informal chit chat
     - title: "Yoga"
       dateStart: 2020-05-29T10:30:00-04:00
       dateEnd:   2020-05-29T11:00:00-04:00
       linktosession: https://zoom.us/j/93696320633
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Online yoga class.
     - title: "Free hacking"
       dateStart: 2020-05-29T11:00:00-04:00
       dateEnd:   2020-05-29T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
@@ -1055,30 +1055,30 @@ schedule:
       linktosession:
       description: One-on-one meeting with your assigned instructor (group B) and clinic with fellow participants (group A)
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
- 
+
     # - title: "Virtual coffee break"
     #   dateStart: 2020-05-29T15:00:00-04:00
     #   dateEnd:   2020-05-29T15:15:00-04:00
     #   linktosession:
     #   topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-    #   description: > 
+    #   description: >
     #     Informal chit chat
     - title: "Free hacking"
       dateStart: 2020-05-29T15:15:00-04:00
       dateEnd:   2020-05-29T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
 
 
 - week: Week 4
   title: "Project wrap-up and communication"
   days:
-  
+
   ################################
   ########### Monday ############
-  ################################   
+  ################################
   - date: 2020-06-01
     sessions:
     - title: "Introduction to week 4"
@@ -1086,7 +1086,7 @@ schedule:
       dateEnd:   2020-06-01T09:15:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         A review of goals, delivrables and schedule for the week
       instructors:
         - Benjamin De Leener
@@ -1095,7 +1095,7 @@ schedule:
       dateEnd:   2020-06-01T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         by Liza Levitis
       instructors:
         - Liza Levitis
@@ -1104,7 +1104,7 @@ schedule:
       dateEnd:   2020-06-01T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
      ############## LUNCH ################
     - title: "Lunch"
@@ -1124,13 +1124,13 @@ schedule:
       dateEnd:   2020-06-01T18:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
 
-      
+
   ################################
   ########### Tuesday ############
-  ################################   
+  ################################
   - date: 2020-06-02
     sessions:
     - title: "Morning talk: Increasing SNR in science communication"
@@ -1138,7 +1138,7 @@ schedule:
       dateEnd:   2020-06-02T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         by Nikola Stikov
       instructors:
         - Nikola Stikov
@@ -1147,14 +1147,14 @@ schedule:
       dateEnd:   2020-06-02T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
     - title: "Yoga"
       dateStart: 2020-06-02T10:30:00-04:00
       dateEnd:   2020-06-02T11:00:00-04:00
       linktosession: https://zoom.us/j/97555940104
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Online yoga class.
     - title: "Lunch"
       dateStart:  2020-06-02T12:00:00-04:00
@@ -1173,17 +1173,17 @@ schedule:
       dateEnd:   2020-06-02T18:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
     - title: "Virtual social (optional)"
       dateStart: 2020-06-02T18:00:00-04:00
       dateEnd:   2020-06-02T21:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      
+
   ################################
   ########### Wednesday ############
-  ################################   
+  ################################
   - date: 2020-06-03
     sessions:
     - title: "Morning talk: How open source software shaped my academic path"
@@ -1191,7 +1191,7 @@ schedule:
       dateEnd:   2020-06-03T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         by Julia Hunterberg
       instructors:
         - Julia Hunterberg
@@ -1200,14 +1200,14 @@ schedule:
       dateEnd:   2020-06-03T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
     - title: "Virtual coffee break"
       dateStart: 2020-06-03T10:00:00-04:00
       dateEnd:   2020-06-03T10:15:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Informal chit chat
     - title: "Lunch"
       dateStart:  2020-06-03T12:00:00-04:00
@@ -1226,12 +1226,12 @@ schedule:
       dateEnd:   2020-06-03T18:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
-      
+
   ################################
   ########### Thursday ############
-  ################################   
+  ################################
   - date: 2020-06-04
     sessions:
     - title: "Morning talk: Life post-BrainHack"
@@ -1239,7 +1239,7 @@ schedule:
       dateEnd:   2020-06-04T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         by Isabelle Simard
       instructors:
         - Isabelle Simard
@@ -1248,14 +1248,14 @@ schedule:
       dateEnd:   2020-06-04T12:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Time to get it done!
     - title: "Yoga"
       dateStart: 2020-06-04T10:30:00-04:00
       dateEnd:   2020-06-04T11:00:00-04:00
       linktosession: https://zoom.us/j/97965153977
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         Online yoga class.
      ############## LUNCH ################
     - title: "Lunch"
@@ -1269,13 +1269,13 @@ schedule:
       dateEnd:   2020-06-04T17:00:00-04:00
       linktosession:
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both
-      description: > 
+      description: >
         First session to present your project.
 
-      
+
   ################################
   ########### Friday ############
-  ################################   
+  ################################
   - date: 2020-06-05
     sessions:
     - title: "Final presentations"

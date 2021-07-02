@@ -14,7 +14,7 @@ question. Pour effectuer une demande de participation, remplissez le formulaire
 ci-dessous (en anglais), ou remplissez directement le
 [formulaire google](https://forms.gle/adrzs9ztZA69c4rg7).
 
-<div class="alert alert-success text-center" role="alert"><b>Les inscriptions ouvriront bientôt pour 2021!</b>Revenez en avril pour en savoir davantage.</div>
+<div class="alert alert-success text-center" role="alert"><b>Les inscriptions sont fermées!</b>Brainhack sera de retour en 2022.</div>
 
 L'école BrainHack est ouverte en priorité aux étudiants des institutions
 partenaires. **Un quota de participants sera sélectionné en dehors de ces

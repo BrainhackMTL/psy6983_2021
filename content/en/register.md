@@ -12,7 +12,7 @@ application. Please contact
 To apply, fill out the form below or access directly the
 [google form](https://forms.gle/adrzs9ztZA69c4rg7).
 
-<div class="alert alert-success text-center" role="alert"><b>Registrations for 2021 will open soon!</b> Come back in April for more information.</div>
+<div class="alert alert-success text-center" role="alert"><b>Registrations are closed!</b> Next edition of the brainhack school will be in 2022.</div>
 
 The BrainHack School is open in priority to students registered at one of the
 four partner institutions. However, **a quota of participants will be selected
