@@ -1,4 +1,4 @@
-baseurl: 'https://school.brainhackmtl.org'
+baseurl: 'https://school2020.brainhackmtl.org'
 title: 'BrainHack School'
 theme: hugo-universal-theme
 defaultContentLanguage: en
@@ -85,7 +85,7 @@ languages:
         Calendar:
           mediaType: text/calendar
       viewMorePostLink: /blog/
-      author: 
+      author:
       defaultKeywords:
         - BrainHack
         - Neuroscience
@@ -217,7 +217,7 @@ languages:
 
     params:
       viewMorePostLink: /blog/
-      author: 
+      author:
       defaultKeywords:
         - BrainHack
         - Neuroscience
@@ -302,4 +302,3 @@ markup:
 disqusShortname: ''
 googleAnalytics: ''
 paginate: 10
-
