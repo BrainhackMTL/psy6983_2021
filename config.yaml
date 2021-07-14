@@ -45,22 +45,7 @@ languages:
           name: Register
           url: /register/
           weight: 6
-        - identifier: documents
-          name: Documents
-          weight: 7
-          url: /guide/
-        - parent: documents
-          name: Installation
-          url: /setup/
-          weight: 8
-        - parent: documents
-          name: Getting started
-          url: /guide/
-          weight: 9
-        - parent: documents
-          name: Project Guide
-          url: /project_guide
-          weight: 10
+
 
       topbar:
         - weight: 1
@@ -187,22 +172,7 @@ languages:
           name: Register
           url: /register/
           weight: 6
-        - identifier: documents
-          name: Documents
-          weight: 7
-          url: /guide/
-        - parent: documents
-          name: Installation
-          url: /setup/
-          weight: 8
-        - parent: documents
-          name: Getting started
-          url: /guide/
-          weight: 9
-        - parent: documents
-          name: Project Guide
-          url: /project_guide
-          weight: 10
+      
       topbar:
         - weight: 1
           name: GitHub
