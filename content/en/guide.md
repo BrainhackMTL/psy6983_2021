@@ -12,7 +12,7 @@ We made a bunch of GIFs because GIFs are worth 5000 words. You can see them when
 <details>
 
 <summary> :stars: GIF - Click to <b>open</b> this useless GIF :arrow_down: </summary>
-<img src="https://media.giphy.com/media/c1c1M1a2yZDd9aVReu/giphy.gif" alt="useless GIF"/>
+<img src="../../static/img/guide/useless_gif.webp" alt="useless GIF"/>
 
 </details>
 
@@ -49,7 +49,7 @@ When you set up your profile there are two things to bear in mind:
 <details>
 
 <summary> :stars: GIF - To <b>edit</b> your profile :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_update_profile.gif" alt="Edit yout profile"/>
+<img src="../../static/img/guide/discord_update_profile.gif" alt="Edit yout profile"/>
 
 </details>
 
@@ -67,7 +67,7 @@ Your status is by default managed automatically by Discord, which will update it
 <details>
 
 <summary> :stars: GIF - To <b>update</b> your status :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_update_status.gif" alt="Update your status"/>
+<img src="../../static/img/guide/discord_update_status.gif" alt="Update your status"/>
 
 </details>
 
@@ -84,7 +84,7 @@ You can create new categories or channels for relevant topics (e.g. your project
 <details>
 
 <summary> :stars: GIF - To <b>create</b> a new channel :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_create_channel.gif" alt="Create a new channel"/>
+<img src="../../static/img/guide/discord_create_channel.gif" alt="Create a new channel"/>
 
 </details>
 
@@ -112,7 +112,7 @@ Discord notifications are great, but they may bother you when you try to focus o
 <details>
 
 <summary> :stars: GIF - To <b>change</b> notification settings :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_notification_settings.gif" alt="Notification settings"/>
+<img src="../../static/img/guide/discord_notification_settings.gif" alt="Notification settings"/>
 
 </details>
 
@@ -128,7 +128,7 @@ Discord notifications are great, but they may bother you when you try to focus o
 <details>
 
 <summary> :stars: GIF - To <b>reply</b> to a message :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_reply.gif" alt="Reply to message"/>
+<img src="../../static/img/guide/discord_reply.gif" alt="Reply to message"/>
 
 </details>
 
@@ -160,7 +160,7 @@ That said, DM are useful to discuss privately with other people (one or many) an
 <details>
 
 <summary> :stars: GIF - To <b>make</b> direct message :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_dm.gif" alt="Direct message"/>
+<img src="../../static/img/guide/discord_dm.gif" alt="Direct message"/>
 
 </details>
 

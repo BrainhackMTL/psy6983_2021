@@ -12,7 +12,7 @@ Nous avons fait quelques GIFs car un GIF vaut 5000 mots. Vous pourrez les voir e
 <details>
 
 <summary> :stars: GIF - Cliquer pour <b>afficher</b> ce GIF inutile :arrow_down: </summary>
-<img src="https://media.giphy.com/media/c1c1M1a2yZDd9aVReu/giphy.gif" alt="GIF inutile"/>
+<img src="../../static/img/guide/useless_gif.webp" alt="GIF inutile"/>
 
 </details>
 
@@ -48,7 +48,7 @@ Lorsque vous configurez votre profil, il y a deux choses à garder en tête:
 <details>
 
 <summary> :stars: GIF - Pour <b>éditer</b> votre profil :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_update_profile.gif" alt="Éditez votre profil"/>
+<img src="../../static/img/guide/discord_update_profile.gif" alt="Éditez votre profil"/>
 
 </details>
 
@@ -64,7 +64,7 @@ Vous pouvez supprimer un statut personnalisé à tout moment en cliquant sur vot
 <details>
 
 <summary> :stars: GIF - Pour <b>mettre à jour</b> votre statut :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_update_status.gif" alt="Mettre à jour votre statut"/>
+<img src="../../static/img/guide/discord_update_status.gif" alt="Mettre à jour votre statut"/>
 
 </details>
 
@@ -81,7 +81,7 @@ Vous pouvez créer de nouvelles catégories ou de nouveaux salons pour des sujet
 <details>
 
 <summary> :stars: GIF - Pour <b>créer</b> un nouveau salon :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_create_channel.gif" alt="Créer un nouveau salon"/>
+<img src="../../static/img/guide/discord_create_channel.gif" alt="Créer un nouveau salon"/>
 
 </details>
 
@@ -109,7 +109,7 @@ Les notifications Discord sont super, mais elles peuvent devenir embêtantes lor
 <details>
 
 <summary> :stars: GIF - Pour <b>changer</b> les paramètres de notifications :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_notification_settings.gif" alt="Paramètres de notifications"/>
+<img src="../../static/img/guide/discord_notification_settings.gif" alt="Paramètres de notifications"/>
 
 </details>
 
@@ -125,7 +125,7 @@ Les notifications Discord sont super, mais elles peuvent devenir embêtantes lor
 <details>
 
 <summary> :stars: GIF - Pour <b>répondre</b> à un message :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_reply.gif" alt="Répondre à un message"/>
+<img src="../../static/img/guide/discord_reply.gif" alt="Répondre à un message"/>
 
 </details>
 
@@ -156,7 +156,7 @@ Ceci dit, les messages directs sont utiles pour discuter sans encombrer les salo
 <details>
 
 <summary> :stars: GIF - Pour <b>envoyer</b> un message direct :arrow_down: </summary>
-<img src="https://github.com/BrainhackMTL/psy6983_2021/tree/master/static/img/discord_dm.gif" alt="Direct message"/>
+<img src="../../static/img/guide/discord_dm.gif" alt="Direct message"/>
 
 </details>
 
