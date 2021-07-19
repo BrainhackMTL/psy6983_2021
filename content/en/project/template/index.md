@@ -44,14 +44,14 @@ The "project template" project will rely on the following technologies:
 
 ### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2019](https://github.com/mtl-brainhack-school-2019) already used this template.
+Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://psy6983.brainhackmtl.org/project/ OR github?) already used this template.
 
 ### Deliverables
 
 At the end of this project, we will have:
  - The current markdown document, completed and revised.
  - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/BrainhackMTL/school) in order to add the project description to the website.
+ - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
 
 ## Results
 
@@ -69,11 +69,11 @@ The project was swiftly initiated by P Bellec, based on the existing template cr
 
 #### Deliverable 1: report template
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/brainhack-school2020/project_template/issues) and let us know.
+You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/PSY6983-2021/project_template/issues/) and let us know.
 
 #### Deliverable 2: project gallery
 
-You can check out the [2020 BrainHack School project gallery](https://psy6983.brainhackmtl.org/)
+You can check out the [2020 BrainHack School project gallery](https://psy6983.brainhackmtl.org/project/)
 
 ##### ECG pupilometry pipeline by Marce Kauffmann
 
@@ -86,6 +86,7 @@ The repository of this project can be found [here](https://github.com/mtl-brainh
 
 ##### Other projects
 Here are other good examples of repositories:
+- ADD 2020 projects
 - [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
 - [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
 - [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
