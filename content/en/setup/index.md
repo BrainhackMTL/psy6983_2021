@@ -23,7 +23,7 @@ To get the most out of our course, we ask that you arrive with the following sof
 - Python 3 via Miniconda
 - A virtualization system: Docker
 - A GitHub account
-- Slack
+- Discord
 - Zoom
 - A modern browser
 
@@ -58,10 +58,10 @@ If they're unable to help via Slack, you may be directed to attend one of the in
 Go to https://github.com/join/ and follow the on-screen instructions to create an account.
 It is a good idea to associate this with your university e-mail (if you have one) as this will entitle you to sign up for the [GitHub Student Developer Pack](https://education.github.com/pack) which comes with some nice free bonuses.
 
-### Slack
+### Discord
 
-Go to https://slack.com/downloads/ and download and install Slack.
-You will be invited to the BrainHack School Slack channel via the e-mail with which you registered for the course.
+Go to https://discord.com/ and download and install Discord.
+You will be invited to the BrainHack School Discord server via the e-mail with which you registered for the course.
 
 ### Zoom
 
