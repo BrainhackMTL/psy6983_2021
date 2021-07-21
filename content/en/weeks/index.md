@@ -11,12 +11,24 @@ type = "weeks"
   buttonurl = "/schedule"
   buttondescr = "View the schedule for that week"
   description = """
-  Week 1 will introduce participants to a reproducible computational toolkit for neural data science, as well as a basic grounding in supervised and unsupervised machine learning methods. Short pre-recorded lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data. Each participant will be required to complete four mandatory tutorials, and pick three optional tutorials based on their interest. As a participant, at the end of Week 1 you should be able to answer questions such as:
+  Week 1 will introduce participants to a reproducible computational toolkit for neural data science, as well as a basic grounding in supervised and unsupervised machine learning methods. Short pre-recorded lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data. Each participant will be required to complete 6 tutorials out of the following list:
+  * :star: [Installation of software](/modules/installation) for PSY6983.
+  * :star: [Introduction to the terminal](/modules/terminal).
+  * :star: [Introduction to git and github](/modules/git_github).
+  * [Python for data analysis](/modules/python).
+  * [Machine learning - basics](/modules/machine_learning).
+  * [Project management](/modules/project_management).
+  * [High performance computing](/modules/high_performance_computing).
+  * [Open data](/modules/open_data).
+  * [Writing scripts in python](/modules/python_scripts).
+
+  Note that the tutorials marked with a :star: are mandatory. As a participant, at the end of Week 1 you should be able to answer questions such as:
+ * How can I open a terminal, and use it to perform operations such as moving or creating files?
  * What is version control, and how can I use it to improve my workflow?
- * Which data standards can be used to organize neuroimaging data, and why should I adopt them?
+ * What is python, and examples of data analyses what I can do with it.
  * How should I visualize and define features for machine learning in neuroimaging?
 
-Small deliverables are due at the end of each tutorial, and count for 10% of the final grade."""
+Short exercises need to be completed at the end of each tutorial. Completing all required tutorials in weeks 1 to 3 counts for 10% of the final grade."""
 
 [[week]]
   week = "**Week 2**"

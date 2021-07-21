@@ -45,6 +45,10 @@ languages:
           name: Register
           url: /register/
           weight: 6
+        - identifier: Modules
+          name: Modules
+          url: /modules/
+          weight: 6
 
 
       topbar:
@@ -172,7 +176,7 @@ languages:
           name: Register
           url: /register/
           weight: 6
-      
+
       topbar:
         - weight: 1
           name: GitHub
