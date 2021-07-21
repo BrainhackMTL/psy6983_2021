@@ -8,12 +8,12 @@ title: "This is an example project page which serves as a template"
 names: [Samuel Guay, Pierre Bellec]
 
 # Your project GitHub repository URL
-github_repo: https://github.com/brainhack-school2020/project_template
+github_repo: https://github.com/PSY6983-2021/project_template
 
 # If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
 website:
 
-# List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/brainhack-school2020/project_template), click `manage topics`.
+# List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
 tags: [project, github, markdown, brainhack]
 
@@ -23,7 +23,7 @@ summary: "Each project repository should have a markdown file explaining the bac
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "bhs2020.png"
+image: ""
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -44,14 +44,14 @@ The "project template" project will rely on the following technologies:
 
 ### Data
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2019](https://github.com/mtl-brainhack-school-2019) already used this template.
+Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://psy6983.brainhackmtl.org/project/ OR github?) already used this template.
 
 ### Deliverables
 
 At the end of this project, we will have:
  - The current markdown document, completed and revised.
  - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/BrainhackMTL/school) in order to add the project description to the website.
+ - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
 
 ## Results
 
@@ -69,11 +69,11 @@ The project was swiftly initiated by P Bellec, based on the existing template cr
 
 #### Deliverable 1: report template
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/brainhack-school2020/project_template/issues) and let us know.
+You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/PSY6983-2021/project_template/issues/) and let us know.
 
 #### Deliverable 2: project gallery
 
-You can check out the [2020 BrainHack School project gallery](https://psy6983.brainhackmtl.org/)
+You can check out the [2020 BrainHack School project gallery](https://psy6983.brainhackmtl.org/project/)
 
 ##### ECG pupilometry pipeline by Marce Kauffmann
 
@@ -86,6 +86,7 @@ The repository of this project can be found [here](https://github.com/mtl-brainh
 
 ##### Other projects
 Here are other good examples of repositories:
+- ADD 2020 projects
 - [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
 - [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
 - [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
