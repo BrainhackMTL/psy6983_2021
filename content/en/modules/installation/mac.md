@@ -14,7 +14,7 @@ To set the default to bash, type `chsh -s /bin/bash` in the terminal, enter your
 
 You may already have it!
 Try opening a terminal and typing `git --version`.
-If you do not see something like “git version X.XX.X” printed out, then follow these steps: 
+If you do not see something like “git version X.XX.X” printed out, then follow these steps:
 
 1. Follow [this link](https://sourceforge.net/projects/git-osx-installer/files/git-2.23.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect) to automatically download an installer.
 1. Double click the downloaded file (`git-2.23.0-intel-universal-mavericks.dmg`) and then double click the `git-2.23.0-intel-universal-mavericks.pkg` icon inside the dmg that is opened.
@@ -36,8 +36,6 @@ If you do not see something like “git version X.XX.X” printed out, then foll
 1. A new panel should appear on the left-hand side of the screen with a search bar.
    Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
       - Python (n.b., you will need to reload VSCode after installing this)
-      - Live Share (n.b., you may need to press "Ctrl/Cmd+Shift+P" and type "install extensions" again after installing this)
-      - Live Share Extension Pack
       - Docker
 
 ### Python

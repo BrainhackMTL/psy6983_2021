@@ -27,8 +27,6 @@ If you are prompted to install it follow the instructions on-screen to do so.
 1. A new panel should appear on the left-hand side of the screen with a search bar.
    Search for each of the following extensions and press `Install` for the first entry that appears. (The author listed for all of these extensions should be "Microsoft".)
       - Python (n.b., you will need to reload VSCode after installing this)
-      - Live Share (n.b., you may need to press "Ctrl/Cmd+Shift+P" and type "install extensions" again after installing this)
-      - Live Share Extension Pack
       - Docker
 
 ### Python
