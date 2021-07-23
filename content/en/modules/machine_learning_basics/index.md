@@ -30,7 +30,7 @@ The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
- * the [introduction to the terminal](/modules/terminal) module.
+ * the [python scripts](/modules/python_scripts) module.
 
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
