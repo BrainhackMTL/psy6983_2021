@@ -30,12 +30,15 @@ The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
- * the [introduction to the terminal](/modules/terminal) module.
+  * Windows: Ubuntu application (Windows Linux Subsystem)
+  * Mac/Linux: Terminal
 
-Contact Pierre Bellec if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+You environment should be ready to go, we set up all that is required during installations!
+
+Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module was presented by [Elizabeth Dupre](https://elizabeth-dupre.com/#/) during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
+This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
 
 All the tutorial notes are available [here](https://emdupre.github.io/git-course/).
 
