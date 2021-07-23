@@ -29,11 +29,11 @@ image: "git_github.png"
 The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
- * the [installation](/modules/installation) module.
-  * Windows: Ubuntu application (Windows Linux Subsystem)
-  * Mac/Linux: Terminal
+ * The [installation](/modules/installation) module.
+   - Windows: Ubuntu application (Windows Linux Subsystem)
+   - Mac/Linux: Terminal
 
-You environment should be ready to go, we set up all that is required during installations!
+You environment should be ready to go, everything required was set up during installations!
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
