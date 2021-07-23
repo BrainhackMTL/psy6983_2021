@@ -16,7 +16,7 @@ tags: [bash shell, terminal]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Learning the basics of version control using git, as well as the social coding platform called [github](https://github.com)."
+summary: "This tutorial aims at introducing students to the use of command line terminal which offers more flexibility than build-in graphical user interfaces. We hope to provide students with an understanding of the basics and advantages of working with the bash shell."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
