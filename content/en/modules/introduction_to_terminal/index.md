@@ -38,41 +38,22 @@ You environment should be ready to go, everything required was set up during ins
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020, with content adapted from the software carpentries by [Elizabeth Dupre](https://elizabeth-dupre.com/#/).
+This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
 
-All the tutorial notes are available [here](https://emdupre.github.io/git-course/).
+All the tutorial notes are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
 
-The video of her presentation is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fBgxmpk9C4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video of the presentation is available below (duration 1:13) :
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Exercise
 
- * send a request through discord on #general to be added to the github organization [PSY6983-2021](https://github.com/PSY6983-2021).
- * create a local repository following the naming convention `<last_name>_project`. Don't worry, you will be able to change this name latter, and possibly merge the content in another repository if you decide to team up with other people.
- * initialize your repo with a README and a LICENSE.
- * Create an issue for adding a short bio.
- * Using the command line, clone this repository locally on your computer.
- * Create a branch named after the issue, e.g. `iss1`.
- * Add a short bio to the README, including a picture of your github avatar. You can adapt the following snippet
- ```
- <a href="https://github.com/pbellec">
-    <img src="https://avatars.githubusercontent.com/u/1670887?v=4?s=100" width="100px;" alt=""/>
-    <br /><sub><b>Pierre bellec</b></sub>
- </a>
- ```
- this is a bit of html, which gets rendered in markdown documents. You will need to click on your profile picture to figure out what to replace `1670887` with the ID of your profile picture. Don't forget to replace `pbellec` by your github handle.
- * Using the command line, commit this change to your local repository. Make sure you registered your github user name and email address, so the commit is accurately credited to you when you push it on github.
- * Using the command line, push the branch and your changes to the github repository.
- * Using the github interface, open a new pull request with your changes. Use a descriptive name for the pull request, e.g. `iss1 - add bio`.
- * Using the github interface, request a review of your changes by `pbellec`.
- * Once pbellec has approved the review, merge the pull request to the `main` branch.
- * Close the issue.
- * Follow up with Pierre Bellec to validate you completed the exercise correctly.
- * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
+ * 
 
 ## More resources
 
-If you are curious to learn more advanced capabilities for git, you can check this tutorial "Effective use of git" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
+If you are curious to solidify your capabilities for using the shell, you can check this tutorial "Effective use of bash" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CRCtRilX3NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. (Pipes and Filters, loops, shell scripts, finding things) [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
+
+<iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
