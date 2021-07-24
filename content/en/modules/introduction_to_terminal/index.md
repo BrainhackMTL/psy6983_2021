@@ -72,6 +72,9 @@ True/False
 
 ## Exercises
 
+#### Practice makes perfect! Complete the following exercices with the shell. We're going to be working with a dataset from https://swcarpentry.github.io/shell-novice/setup.html. Click on this link, and navigate to the section download files. Download shell-lesson-data.zip, unzip it, and move the file to your Desktop.
+
+
 **Exercise 1**
 Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
 
@@ -115,8 +118,6 @@ proteins.dat
      $ mv proteins.dat recombine`
      $ cp recombine/proteins.dat ../proteins-saved.dat
      $ ls
-
-#### Practice makes perfect! Complete the following exercices using the shell. 
 
 **Exercice 4 : Copy with Multiple Filenames**
 In the example below, what does cp do when given several filenames and a directory name?
