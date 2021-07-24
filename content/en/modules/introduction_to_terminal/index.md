@@ -67,7 +67,7 @@ True/False
  - *We are always located somewhere in the file system*
  - *It is possible to be located in more than one place at once*
  - *You can choose multiple options after a command* 
- - *Changing one directory at a time is the same as providing the full path to the final destination
+ - *Changing one directory at a time is the same as providing the full path to the final destination*
  - *Environmental variables are preceded by `$`*
 
 Multiple choice answer
@@ -85,34 +85,34 @@ Multiple choice answer
    
  - *After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
  
-> `$ ls -F`
+     - `$ ls -F`
  analyzed/ raw/
  
-> `$ ls -F analyzed`
+     - `$ ls -F analyzed`
 fructose.dat glucose.dat maltose.dat sucrose.dat
 
-> `$ cd analyzed`
+     - `$ cd analyzed`
 
 Fill in the blanks to move these files to the raw/ folder (i.e. the one she forgot to put them in):
-`$ mv sucrose.dat maltose.dat ____/____`
-`mv sucrose.dat maltose.dat ../raw`
+     - `$ mv sucrose.dat maltose.dat ____/____`
+     - `mv sucrose.dat maltose.dat ../raw`
 
 Remember, the .. refers to the parent directory (i.e., one above the current directory)
 
 - *What is the output of the closing ls command in the sequence shown below:*
 
-`$ pwd`
-/Users/jamie/data
+     - `$ pwd`
+     - /Users/jamie/data
 
-`$ ls`
-proteins.dat
+     - `$ ls`
+     - proteins.dat
 
-`$ mkdir recombine`
-`$ mv proteins.dat recombine`
-`$ cp recombine/proteins.dat ../proteins-saved.dat`
-`$ ls`
+     - `$ mkdir recombine`
+     - `$ mv proteins.dat recombine`
+     - `$ cp recombine/proteins.dat ../proteins-saved.dat`
+     - `$ ls`
 
- * Practice makes perfect! Complete the following exercices using the shell. 
+### Practice makes perfect! Complete the following exercices using the shell. 
 
 **Exercice : Copy with Multiple Filenames**
 In the example below, what does cp do when given several filenames and a directory name?
