@@ -31,6 +31,7 @@ The estimated time to complete this training module is 4h.
 The prerequisites to take this module are:
 
 * You should already have everything installed for this module!
+* We will be using Jupyter Notebook which is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -43,12 +44,18 @@ The video of the presentation is available below (duration 2h38) :
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=NcDcoiNMauc&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-**Before starting**:
+## Before starting:
+
 1. Open the terminal
 2. Type jupyter notebook
 3. If you're not automatically directed to a webpage copy the URL printed in the terminal and paste it in your browser
 4. Once on the webpage, click "New" in the top-right corner and select "Python 3"
-5. You have a Jupyter notebook
+5. You have Jupyter notebook 
+
+The little box you see once in the notebook is called a "cell." You can enter (multi-line) code by typing in the cell, and then run the code by pressing "Shift+Enter."
+To create a new cell, press the "+" button on lefthand side of the toolbar at the top of the screen!
+
+You are ready for this tutorial and you are strongly encouraged to type along the presentation!
 
 ## Exercises
 
