@@ -90,7 +90,30 @@ Starting from `/Users/amanda/data`, which of the following commands could Amanda
       h) cd
       i) cd ..
 
-**Exercise 2**
+
+**Exercice 2**
+
+**2.1**
+Based on the following diagram, if pwd displays /Users/thing, what will ls -F ../backup display?
+
+![][]
+
+a) ../backup: No such file or directory
+b) 2012-12-01 2013-01-08 2013-01-27
+c) 2012-12-01/ 2013-01-08/ 2013-01-27/
+d) original/ pnas_final/ pnas_sub/
+
+**2.2**
+
+Using the filesystem diagram, if pwd displays /Users/backup, and -r tells ls to display things in reverse (alphabetical) order, what command(s) will result in the following output:
+
+     pnas_sub/ pnas_final/ original/
+     ls pwd
+     ls -rF
+     ls -rF /Users/backup
+
+
+**Exercise 3**
 After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
  
       $ ls -F
