@@ -49,27 +49,67 @@ Follow along with the video of the presentation, typing the command line into yo
 
 ## Exercises
 
-# Test your knowledge
+### Test your knowledge
 
- * Once you've completed all exercises in the tutorial, try testing your understanding by answering the following questions. 
+Once you've completed the tutorial, try testing your understanding by answering the following questions. 
 
- - What are some of the main advantages in using the shell?
- - What are some of its disadvantages?
- - Name a few command lines that enable to read/write/operate on files. 
- - What is an option, also called flag or switch, useful for?
- - What are arguments in a command line?
- - What is the difference between relative and absolute paths?
+Short answers
+
+ - *What are some of the main advantages in using the shell?*
+ - *What are some of its disadvantages?*
+ - *Name a few command lines that enable to read/write/operate on files. What are they used for?*
+ - *What is an option, also called flag or switch?*
+ - *What are arguments in a command line*?
+ - *Can you tell the difference between relative and absolute paths?*
+
+True/False
+
+ - *We are always located somewhere in the file system*
+ - *It is possible to be located in more than one place at once*
+ - *You can’t choose multiple options after a command* 
+ - *Changing one directory at a time is the same as providing the full path to the final destination
+ - *Environmental variables are preceded by `$`*
+
+
+ - *Starting from /Users/amanda/data, which of the following commands could Amanda use to navigate to her home directory, which is /Users/amanda?*
+     - a) cd .
+     - b) cd /
+     - c) cd /home/amanda
+     - d) cd ../..
+     - e) cd ~
+     - f) cd home
+     - g) cd ~/data/..
+     - h) cd
+     - i) cd ..
+   
+ - *After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
+> `$ ls -F`
+ analyzed/ raw/
  
- - Starting from /Users/amanda/data, which of the following commands could Amanda use to navigate to her home directory, which is /Users/amanda?
-   a) cd .
-   b) cd /
-   c) cd /home/amanda
-   d) cd ../..
-   e) cd ~
-   f) cd home
-   g) cd ~/data/..
-   h) cd
-   i) cd ..
+> `$ ls -F analyzed`
+fructose.dat glucose.dat maltose.dat sucrose.dat
+
+> `$ cd analyzed`
+Fill in the blanks to move these files to the raw/ folder (i.e. the one she forgot to put them in):
+`$ mv sucrose.dat maltose.dat ____/____`
+mv sucrose.dat maltose.dat ../raw
+
+Suppose that you created a plain-text file in your current directory to contain a list of the statistical tests you will need to do to analyze your data, and named it: statstics.txt
+
+After creating and saving this file you realize you misspelled the filename! You want to correct the mistake and remove the incorrectly named file. Which of the following commands could you use to do so?
+
+cp statstics.txt statistics.txt
+mv statstics.txt statistics.txt
+mv statstics.txt .
+cp statstics.txt .
+
+Remember, the .. refers to the parent directory (i.e., one above the current directory)
+
+ * Practice makes perfect! Complete the following exercices using the shell. 
+ 
+ # Exercice 1 
+
+
 
 
 
@@ -94,6 +134,6 @@ Follow along with the video of the presentation, typing the command line into yo
 
 If you are curious to solidify your capabilities for using the shell, you can check this tutorial "Effective use of bash" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 
-You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. (Pipes and Filters, loops, shell scripts, finding things) [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
+You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things) [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
 
 <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
