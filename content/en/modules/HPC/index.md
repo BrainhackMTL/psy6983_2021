@@ -81,9 +81,6 @@ The video of his presentation is available below:
  {{< tab tabNum="5" >}} {{% content "content/en/modules/HPC/5-tache-mpi.md" %}} {{< /tab >}}
  {{< /tabs >}}
 
- <br>
-
- :warning: **Warning**: Contrary to what is stated in the instructions of 1-base, you have to change the account argument `#SBATCH --account=def-sponsor00` with the value of the actual sponsor of your account, e.g. `#SBATCH --account=rrg-pbellec`.
 
  <br>
 
