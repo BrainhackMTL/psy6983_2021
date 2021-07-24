@@ -71,30 +71,31 @@ True/False
  - *Environmental variables are preceded by `$`*
 
 ## Exercises
-*Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?*
-     - a) cd .
-     - b) cd /
-     - c) cd /home/amanda
-     - d) cd ../..
-     - e) cd ~
-     - f) cd home
-     - g) cd ~/data/..
-     - h) cd
-     - i) cd ..
+- Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
+
+a) cd .
+b) cd /
+c) cd /home/amanda
+d) cd ../..
+e) cd ~
+f) cd home
+g) cd ~/data/..
+h) cd
+i) cd ..
    
-*After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
+-After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
  
-     - `$ ls -F`
+      `$ ls -F`
  analyzed/ raw/
  
-     - `$ ls -F analyzed`
+      `$ ls -F analyzed`
 fructose.dat glucose.dat maltose.dat sucrose.dat
 
-     - `$ cd analyzed`
+      `$ cd analyzed`
 
 Fill in the blanks to move these files to the raw/ folder (i.e. the one she forgot to put them in):
-     - `$ mv sucrose.dat maltose.dat ____/____`
-     - `mv sucrose.dat maltose.dat ../raw`
+      `$ mv sucrose.dat maltose.dat ____/____`
+      `mv sucrose.dat maltose.dat ../raw`
 
 Remember, the .. refers to the parent directory (i.e., one above the current directory)
 
