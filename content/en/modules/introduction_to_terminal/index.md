@@ -71,46 +71,49 @@ True/False
  - *Environmental variables are preceded by `$`*
 
 ## Exercises
-- Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
 
-a) cd .
-b) cd /
-c) cd /home/amanda
-d) cd ../..
-e) cd ~
-f) cd home
-g) cd ~/data/..
-h) cd
-i) cd ..
-   
--After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
+**Exercise 1**
+Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
+
+     - a) cd .
+     - b) cd /
+     - c) cd /home/amanda
+     - d) cd ../..
+     - e) cd ~
+     - f) cd home
+     - g) cd ~/data/..
+     - h) cd
+     - i) cd ..
+
+**Exercise 2**
+After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
  
-      `$ ls -F`
+      $ ls -F
  analyzed/ raw/
  
-      `$ ls -F analyzed`
+      $ ls -F analyzed
 fructose.dat glucose.dat maltose.dat sucrose.dat
 
-      `$ cd analyzed`
+      $ cd analyzed
 
 Fill in the blanks to move these files to the raw/ folder (i.e. the one she forgot to put them in):
-      `$ mv sucrose.dat maltose.dat ____/____`
-      `mv sucrose.dat maltose.dat ../raw`
 
-Remember, the .. refers to the parent directory (i.e., one above the current directory)
+      $ mv sucrose.dat maltose.dat ____/____
 
-- *What is the output of the closing ls command in the sequence shown below:*
+Hint: the .. refers to the parent directory (i.e., one above the current directory)
 
-     - `$ pwd`
-     - /Users/jamie/data
+- What is the output of the closing ls command in the sequence shown below:
 
-     - `$ ls`
-     - proteins.dat
+      $ pwd
+/Users/jamie/data
 
-     - `$ mkdir recombine`
-     - `$ mv proteins.dat recombine`
-     - `$ cp recombine/proteins.dat ../proteins-saved.dat`
-     - `$ ls`
+      $ ls
+proteins.dat
+
+     $ mkdir recombine
+     $ mv proteins.dat recombine`
+     $ cp recombine/proteins.dat ../proteins-saved.dat
+     $ ls
 
 ### Practice makes perfect! Complete the following exercices using the shell. 
 
