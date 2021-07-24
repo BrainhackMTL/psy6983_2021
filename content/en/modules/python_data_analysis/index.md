@@ -42,7 +42,8 @@ All the tutorial notes related to the video below are available [here](https://g
 The video of the presentation is available below (duration 2h38) :
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=NcDcoiNMauc&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Before starting:
+
+**Before starting**:
 1. Open the terminal
 2. Type jupyter notebook
 3. If you're not automatically directed to a webpage copy the URL printed in the terminal and paste it in your browser
@@ -65,11 +66,11 @@ There are hundreds of excellent resources online for learning Python and/or data
 - CodeAcademy offers interactive programming courses for many languages and tools, including Python and git
 - A Whirlwind Tour of Python is an excellent intro to Python by Jake VanderPlas; Jupyter notebooks are available here
 - Another excellent and free online book is Allen Downey's "Think Python"
+- Object Oriented Programming in Python 3
+(https://realpython.com/python3-object-oriented-programming/) 
 - Jake Vanderplas's Python Data Science Handbook is also available online as a set of notebooks
 - Kaggle maintains a nice list of data science and Python tutorials
 
-If you are curious to solidify your capabilities for using the shell, you can check this tutorial "" by  organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
-
-You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things. [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
+If you are curious, eiger to learn more, you can also try out this tutorial which inspired much of the content you saw today. [introduction to Python](https://neurohackademy.org/course/introduction-to-python-2/)
 
 <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
