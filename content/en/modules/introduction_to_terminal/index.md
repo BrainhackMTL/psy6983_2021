@@ -70,9 +70,8 @@ True/False
  - *Changing one directory at a time is the same as providing the full path to the final destination*
  - *Environmental variables are preceded by `$`*
 
-Multiple choice answer
-
- - *Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?*
+## Exercises
+*Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?*
      - a) cd .
      - b) cd /
      - c) cd /home/amanda
@@ -83,7 +82,7 @@ Multiple choice answer
      - h) cd
      - i) cd ..
    
- - *After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
+*After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
  
      - `$ ls -F`
  analyzed/ raw/
@@ -136,6 +135,12 @@ ls *t*ane.pdb
 ls *t?ne.*
 ls *t??ne.pdb
 ls ethane.*
+
+
+
+
+ * Follow up with François Paugam to validate you completed the exercise correctly.
+ * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
