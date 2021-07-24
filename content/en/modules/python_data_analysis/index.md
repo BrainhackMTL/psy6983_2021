@@ -2,7 +2,7 @@
 type: "modules" # DON'T TOUCH THIS ! :)
 
 # Title of your project (we like creative title)
-title: "A brief introduction to the bash shell"
+title: "Introduction to Python for data analysis"
 
 # Your project GitHub repository URL
 github_repo:
@@ -12,11 +12,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [bash shell, terminal]
+tags: [Python, data analysis]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "This tutorial aims at introducing students to the use of command line terminal which offers more flexibility than build-in graphical user interfaces. We hope to provide students with an understanding of the basic command lines and advantages of working with the bash shell."
+summary: "This tutorial aims at introducing students to the programming langage Python for data analysis. By the end of this module, students will be familiar with Python basic syntax and understand why Python serves well the purpose of data analysis."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
