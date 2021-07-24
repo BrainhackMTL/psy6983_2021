@@ -95,31 +95,32 @@ Starting from `/Users/amanda/data`, which of the following commands could Amanda
 
 **2.1** Based on the following diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
 
-![exercice2.png][exercice.png]
+![exercice.png][exercice.png]
 
-a) ../backup: No such file or directory
-b) 2012-12-01 2013-01-08 2013-01-27
-c) 2012-12-01/ 2013-01-08/ 2013-01-27/
-d) original/ pnas_final/ pnas_sub/
+    a) ../backup: No such file or directory
+    b) 2012-12-01 2013-01-08 2013-01-27
+    c) 2012-12-01/ 2013-01-08/ 2013-01-27/
+    d) original/ pnas_final/ pnas_sub/
 
 **2.2**
 
 Using the filesystem diagram, if `pwd` displays `/Users/backup`, and `-r` tells `ls` to display things in reverse (alphabetical) order, what command(s) will result in the following output:
 
      pnas_sub/ pnas_final/ original/
-     ls pwd
-     ls -rF
-     ls -rF /Users/backup
+     
+     a) ls pwd
+     b) ls -rF
+     c) ls -rF /Users/backup
 
 
 **Exercise 3**
 After running the following commands, Jamie realizes that she put the files `sucrose.dat` and `maltose.dat` into the wrong folder. The files should have been placed in the raw folder.*
  
       $ ls -F
-analyzed/ raw/
+      analyzed/ raw/
  
       $ ls -F analyzed
-fructose.dat glucose.dat maltose.dat sucrose.dat
+      fructose.dat glucose.dat maltose.dat sucrose.dat
 
       $ cd analyzed
 
@@ -157,14 +158,12 @@ amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  
 **Exercise 5: List filenames matching a pattern**
 When run in the molecules directory, which ls command(s) will produce this output?
 
-ethane.pdb methane.pdb
+    ethane.pdb methane.pdb
 
     a) ls *t*ane.pdb
     b) ls *t?ne.*
     c) ls *t??ne.pdb
     d) ls ethane.*
-
-
 
 
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
