@@ -33,7 +33,7 @@ The prerequisites to take this module are:
    - Windows: Ubuntu application (Windows Linux Subsystem)
    - Mac/Linux: Terminal
 
-You environment should be ready to go, everything required was set up during installations!
+You environment should be ready to go, everything required was set up during installations! In the video, you will be working with a dataset from https://swcarpentry.github.io/shell-novice/setup.html. Click on this link, and navigate to the section Download files. Download shell-lesson-data.zip, unzip it, and move the file to your Desktop.
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -71,9 +71,6 @@ True/False
  - *Environmental variables are preceded by `$`*
 
 ## Exercises
-
-#### Practice makes perfect! Complete the following exercices with the shell. We're going to be working with a dataset from https://swcarpentry.github.io/shell-novice/setup.html. Click on this link, and navigate to the section download files. Download shell-lesson-data.zip, unzip it, and move the file to your Desktop.
-
 
 **Exercise 1**
 Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
