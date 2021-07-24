@@ -93,7 +93,8 @@ Starting from `/Users/amanda/data`, which of the following commands could Amanda
 
 **Exercice 2**
 
-**2.1** Based on the following diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
+**2.1.** 
+Based on the following diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
 
 ![exercice.png][exercice.png]
 
@@ -102,8 +103,7 @@ Starting from `/Users/amanda/data`, which of the following commands could Amanda
     c) 2012-12-01/ 2013-01-08/ 2013-01-27/
     d) original/ pnas_final/ pnas_sub/
 
-**2.2**
-
+**2.2.**
 Using the filesystem diagram, if `pwd` displays `/Users/backup`, and `-r` tells `ls` to display things in reverse (alphabetical) order, what command(s) will result in the following output:
 
      pnas_sub/ pnas_final/ original/
@@ -130,7 +130,7 @@ Fill in the blanks to move these files to the raw/ folder (i.e. the one she forg
 
 Hint: the .. refers to the parent directory (i.e., one above the current directory)
 
-**Exercice 3**
+**Exercice 4**
 What is the output of the closing `ls` command in the sequence shown below:
 
       $ pwd
@@ -144,7 +144,7 @@ proteins.dat
      $ cp recombine/proteins.dat ../proteins-saved.dat
      $ ls
 
-**Exercice 4 : Copy with Multiple Filenames**
+**Exercice 5 : Copy with Multiple Filenames**
 In the example below, what does `cp` do when given several filenames and a directory name?
 
     $ mkdir backup
@@ -155,7 +155,7 @@ amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  
     $ cp amino-acids.txt animals.txt morse.txt
   
 
-**Exercise 5: List filenames matching a pattern**
+**Exercise 6: List filenames matching a pattern**
 When run in the molecules directory, which ls command(s) will produce this output?
 
     ethane.pdb methane.pdb
