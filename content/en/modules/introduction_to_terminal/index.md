@@ -40,15 +40,55 @@ Contact Andréanne Proulx if you have questions on this module, or if you want t
 ## Resources
 This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
 
-All the tutorial notes are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
+All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
 
-The video of the presentation is available below (duration 1:13) :
+The video of the presentation is available below (duration 1h13) :
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Follow along with the video of the presentation, typing the command line into your terminal.
 
-## Exercise
+## Exercises
 
- * 
+# Test your knowledge
+
+ * Once you've completed all exercises in the tutorial, try testing your understanding by answering the following questions. 
+
+ - What are some of the main advantages in using the shell?
+ - What are some of its disadvantages?
+ - Name a few command lines that enable to read/write/operate on files. 
+ - What is an option, also called flag or switch, useful for?
+ - What are arguments in a command line?
+ - What is the difference between relative and absolute paths?
+ 
+ - Starting from /Users/amanda/data, which of the following commands could Amanda use to navigate to her home directory, which is /Users/amanda?
+   a) cd .
+   b) cd /
+   c) cd /home/amanda
+   d) cd ../..
+   e) cd ~
+   f) cd home
+   g) cd ~/data/..
+   h) cd
+   i) cd ..
+
+
+
+
+
+ - True/False
+ - 
+ 
+
+ * Practice makes perfect! Complete the following exercices using the shell. 
+
+ - Now, let’s open the terminal and start typing some commands!
+ - Figure out where you are in the file system using the command `pwd`
+ - 
+
+
+
+
+
 
 ## More resources
 
