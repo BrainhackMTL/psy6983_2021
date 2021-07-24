@@ -70,8 +70,9 @@ True/False
  - *Changing one directory at a time is the same as providing the full path to the final destination
  - *Environmental variables are preceded by `$`*
 
+Multiple choice answer
 
- - *Starting from /Users/amanda/data, which of the following commands could Amanda use to navigate to her home directory, which is /Users/amanda?*
+ - *Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?*
      - a) cd .
      - b) cd /
      - c) cd /home/amanda
