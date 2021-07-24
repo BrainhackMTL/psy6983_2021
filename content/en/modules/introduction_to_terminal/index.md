@@ -75,21 +75,21 @@ True/False
 **Exercise 1**
 Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
 
-     - a) cd .
-     - b) cd /
-     - c) cd /home/amanda
-     - d) cd ../..
-     - e) cd ~
-     - f) cd home
-     - g) cd ~/data/..
-     - h) cd
-     - i) cd ..
+      a) cd .
+      b) cd /
+      c) cd /home/amanda
+      d) cd ../..
+      e) cd ~
+      f) cd home
+      g) cd ~/data/..
+      h) cd
+      i) cd ..
 
 **Exercise 2**
 After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
  
       $ ls -F
- analyzed/ raw/
+analyzed/ raw/
  
       $ ls -F analyzed
 fructose.dat glucose.dat maltose.dat sucrose.dat
@@ -102,7 +102,8 @@ Fill in the blanks to move these files to the raw/ folder (i.e. the one she forg
 
 Hint: the .. refers to the parent directory (i.e., one above the current directory)
 
-- What is the output of the closing ls command in the sequence shown below:
+**Exercice 3**
+What is the output of the closing ls command in the sequence shown below:
 
       $ pwd
 /Users/jamie/data
@@ -115,41 +116,39 @@ proteins.dat
      $ cp recombine/proteins.dat ../proteins-saved.dat
      $ ls
 
-### Practice makes perfect! Complete the following exercices using the shell. 
+#### Practice makes perfect! Complete the following exercices using the shell. 
 
-**Exercice : Copy with Multiple Filenames**
+**Exercice 4 : Copy with Multiple Filenames**
 In the example below, what does cp do when given several filenames and a directory name?
 
-$ mkdir backup
-$ cp amino-acids.txt animals.txt backup/
-What does cp do when given three or more filenames?
-
-$ ls
+    $ mkdir backup
+    $ cp amino-acids.txt animals.txt backup/
+    $ ls
 amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
-$ cp amino-acids.txt animals.txt morse.txt
- * Practice makes perfect! Complete the following exercices using the shell. 
- 
 
-**Exercise: List filenames matching a pattern**
+    $ cp amino-acids.txt animals.txt morse.txt
+  
+
+**Exercise 5: List filenames matching a pattern**
 When run in the molecules directory, which ls command(s) will produce this output?
 
 ethane.pdb methane.pdb
 
-ls *t*ane.pdb
-ls *t?ne.*
-ls *t??ne.pdb
-ls ethane.*
+    a) ls *t*ane.pdb
+    b) ls *t?ne.*
+    c) ls *t??ne.pdb
+    d) ls ethane.*
 
 
 
 
- * Follow up with François Paugam to validate you completed the exercise correctly.
+ * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
 If you are curious to solidify your capabilities for using the shell, you can check this tutorial "Effective use of bash" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 
-You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things) [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
+You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things. [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
 
 <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
