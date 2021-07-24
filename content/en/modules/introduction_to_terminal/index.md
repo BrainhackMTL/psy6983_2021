@@ -63,6 +63,8 @@ Short answers
  - *What is an option, also called flag or switch?*
  - *What are arguments in a command line*?
  - *Can you tell the difference between relative and absolute paths?*
+ - *What is Nano?*
+ - *You want to move a file to a folder and avoid overwriting another file with the same name. How can you make this move safely?*
 
 True/False
 
@@ -71,6 +73,7 @@ True/False
  - *You can choose multiple options after a command* 
  - *Changing one directory at a time is the same as providing the full path to the final destination*
  - *Environmental variables are preceded by `$`*
+ - *Good naming conventions include special characters*
 
 ## Exercises
 
