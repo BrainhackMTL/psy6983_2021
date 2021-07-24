@@ -72,5 +72,3 @@ There are hundreds of excellent resources online for learning Python and/or data
 - Kaggle maintains a nice list of data science and Python tutorials
 
 If you are curious, eiger to learn more, you can also try out this tutorial which inspired much of the content you saw today. [introduction to Python](https://neurohackademy.org/course/introduction-to-python-2/)
-
-<iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
