@@ -96,7 +96,7 @@ Starting from `/Users/amanda/data`, which of the following commands could Amanda
 **2.1.** 
 Based on the following diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
 
-![exercice.png](exercice.png)
+![exercice_2.png](exercice_2.png)
 
     a) ../backup: No such file or directory
     b) 2012-12-01 2013-01-08 2013-01-27
