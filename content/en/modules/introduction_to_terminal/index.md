@@ -55,8 +55,8 @@ Once you've completed the tutorial, try testing your understanding by answering 
 
 Short answers
 
- - *What are some of the main advantages in using the shell?*
- - *What are some of its disadvantages?*
+ - *What are some of the main advantages of using the shell?*
+ - *What are some of disadvantages?*
  - *Name a few command lines that enable to read/write/operate on files. What are they used for?*
  - *What is an option, also called flag or switch?*
  - *What are arguments in a command line*?
@@ -66,7 +66,7 @@ True/False
 
  - *We are always located somewhere in the file system*
  - *It is possible to be located in more than one place at once*
- - *You can’t choose multiple options after a command* 
+ - *You can choose multiple options after a command* 
  - *Changing one directory at a time is the same as providing the full path to the final destination
  - *Environmental variables are preceded by `$`*
 
@@ -84,6 +84,7 @@ Multiple choice answer
      - i) cd ..
    
  - *After running the following commands, Jamie realizes that she put the files sucrose.dat and maltose.dat into the wrong folder. The files should have been placed in the raw folder.*
+ 
 > `$ ls -F`
  analyzed/ raw/
  
@@ -91,45 +92,50 @@ Multiple choice answer
 fructose.dat glucose.dat maltose.dat sucrose.dat
 
 > `$ cd analyzed`
+
 Fill in the blanks to move these files to the raw/ folder (i.e. the one she forgot to put them in):
 `$ mv sucrose.dat maltose.dat ____/____`
-mv sucrose.dat maltose.dat ../raw
-
-Suppose that you created a plain-text file in your current directory to contain a list of the statistical tests you will need to do to analyze your data, and named it: statstics.txt
-
-After creating and saving this file you realize you misspelled the filename! You want to correct the mistake and remove the incorrectly named file. Which of the following commands could you use to do so?
-
-cp statstics.txt statistics.txt
-mv statstics.txt statistics.txt
-mv statstics.txt .
-cp statstics.txt .
+`mv sucrose.dat maltose.dat ../raw`
 
 Remember, the .. refers to the parent directory (i.e., one above the current directory)
 
+- *What is the output of the closing ls command in the sequence shown below:*
+
+`$ pwd`
+/Users/jamie/data
+
+`$ ls`
+proteins.dat
+
+`$ mkdir recombine`
+`$ mv proteins.dat recombine`
+`$ cp recombine/proteins.dat ../proteins-saved.dat`
+`$ ls`
+
+ * Practice makes perfect! Complete the following exercices using the shell. 
+
+**Exercice : Copy with Multiple Filenames**
+In the example below, what does cp do when given several filenames and a directory name?
+
+$ mkdir backup
+$ cp amino-acids.txt animals.txt backup/
+What does cp do when given three or more filenames?
+
+$ ls
+amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
+$ cp amino-acids.txt animals.txt morse.txt
  * Practice makes perfect! Complete the following exercices using the shell. 
  
- # Exercice 1 
 
+**Exercise: List filenames matching a pattern**
+When run in the molecules directory, which ls command(s) will produce this output?
 
+ethane.pdb methane.pdb
 
-
-
-
-
- - True/False
- - 
- 
-
- * Practice makes perfect! Complete the following exercices using the shell. 
-
- - Now, let’s open the terminal and start typing some commands!
- - Figure out where you are in the file system using the command `pwd`
- - 
-
-
-
-
-
+ls *t*ane.pdb
+ls *t?ne.*
+ls *t??ne.pdb
+ls ethane.*
 
 ## More resources
 
