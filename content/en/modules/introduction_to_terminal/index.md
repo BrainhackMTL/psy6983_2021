@@ -73,9 +73,11 @@ True/False
  - *You can choose multiple options after a command* 
  - *Changing one directory at a time is the same as providing the full path to the final destination*
  - *Environmental variables are preceded by `$`*
- - *Good naming conventions include special characters*
+ - *Good naming conventions of files include special characters*
 
 ## Exercises
+
+Practice makes perfect. 
 
 **Exercise 1**
 Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
