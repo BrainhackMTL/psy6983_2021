@@ -41,8 +41,7 @@ This module was presented by [Ross Markello](https://rossmarkello.com/) during t
 All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/12-may/01-python-for-data-analysis/python-for-data-analysis.ipynb). 
 
 The video of the presentation is available below (duration 2h38) :
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NcDcoiNMauc&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcDcoiNMauc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Before starting:
 
