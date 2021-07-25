@@ -94,10 +94,12 @@ Starting from `/Users/amanda/data`, which of the following commands could Amanda
 
 **Exercice 2**
 
-**2.1.** 
-Based on the following diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
+This is how your filesystem is organised. 
 
-![exercice_2.png](exercice_2.png)
+![filesystem.png](filesystem.png)
+
+**2.1.** 
+Based on the previous diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
 
     a) ../backup: No such file or directory
     b) 2012-12-01 2013-01-08 2013-01-27
