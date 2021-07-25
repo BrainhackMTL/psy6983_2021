@@ -31,6 +31,7 @@ The estimated time to complete this training module is 4h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [python scripts](/modules/python_scripts) module.
+ * the [python data analysis](/modules/python_data_analysis) module.
 
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -39,19 +40,20 @@ This module was presented by Estefany Suarez and Jacob Vogel during Brainhack Sc
 
 The tutorial slides and notebook are available [here](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/03-intro-to-machine-learning).
 
-The video presentations are available below:
-Watch first (Estefany Suarez):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/thLHAg8oOLw&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video presentations are available below. The first video (Estefany Suarez) is here:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/thLHAg8oOLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Watch second (Jacob Vogel):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2wj9OJjEDy0&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can watch the second (Jacob Vogel) here:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2wj9OJjEDy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Exercise
 
  * Watch the video presentation by Estefany Suarez and go over the slides.
- * Watch follow along with Jacob Vogel's video in the Jupyter Notebook.
- * 
+ * Download the [notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/ML_Regression_Tutorial.ipynb) 
+ * Watch Jacob Vogel's video and follow along in the Jupyter Notebook.
+ * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
 
