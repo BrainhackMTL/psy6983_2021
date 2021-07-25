@@ -35,14 +35,6 @@ The prerequisites to take this module are:
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
-## Resources
-This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
-
-All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/12-may/01-python-for-data-analysis/python-for-data-analysis.ipynb). 
-
-The video of the presentation is available below (duration 2h38) :
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NcDcoiNMauc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Before starting:
 
 1. Open the terminal
@@ -55,6 +47,14 @@ The little box you see once in the notebook is called a "cell." You can enter (m
 To create a new cell, press the "+" button on lefthand side of the toolbar at the top of the screen!
 
 You are ready for this tutorial and you are strongly encouraged to type along the presentation!
+
+## Resources
+This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
+
+All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/12-may/01-python-for-data-analysis/python-for-data-analysis.ipynb). 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Exercises
 
