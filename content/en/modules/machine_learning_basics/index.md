@@ -59,3 +59,4 @@ You can watch the second (Jacob Vogel) here:
 
 If you are curious to learn more, you can check this tutorial "Understanding and diagnosing your machine-learning models" by Gael Varoquaux [here](http://gael-varoquaux.info/interpreting_ml_tuto/index.html).
 
+Additional examples, tutorials, and documentation can be found at the [Scikit-Learn website](https://scikit-learn.org/stable).
