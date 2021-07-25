@@ -44,10 +44,9 @@ This module was presented by [Ross Markello](https://rossmarkello.com/) during t
 
 All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
 
-The video of the presentation is available below (duration 1h13) :
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video of the presentation is available below (duration 1h13). Follow along with the video of the presentation, typing the command line into your terminal.
 
-Follow along with the video of the presentation, typing the command line into your terminal.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercises
 
