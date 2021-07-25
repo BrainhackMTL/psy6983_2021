@@ -49,7 +49,7 @@ The video presentations are available below. The first video (Estefany Suarez an
 
  * Watch the video presentation by Estefany Suarez and go over the slides.
  * Download the [notebook](https://github.com/main-training/main-training-nilearn-ml/blob/master/01_intro_ml.ipynb) 
- * Fo through the tutorial within the Jupyter Notebook and run the code. Feel free to play around with the code to see what happens!
+ * Follow the tutorial within the Jupyter Notebook and run the code. Feel free to play around with the code to see what happens!
  * Follow up with Désirée Lussier to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
