@@ -156,9 +156,11 @@ In the example below, what does `cp` do when given several filenames and a direc
 
     $ mkdir backup
     $ cp amino-acids.txt animals.txt backup/
+
+What does cp do when given three or more filenames?
+
     $ ls
     amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
-
     $ cp amino-acids.txt animals.txt morse.txt
   
 
