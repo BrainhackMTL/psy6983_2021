@@ -57,7 +57,30 @@ All the tutorial notes related to the video below are available [here](https://g
 
 
 ## Exercises
+1. Before starting to write some code, you want to set-up your environment. In a Jupyter Notebook start by importing the following librairies:
+       
+       # imports 
+       import pandas as pd
+       import numpy as np
+       import matplotlib
+       %matplotlib inline
 
+       
+2. Load the dataset
+
+       data = pd.read_csv('', delimiter=';')
+       
+3. Replace missing data with 0
+
+5. Save data
+
+       data = pd.read_csv('https://bit.ly/nds-python-mixed', delimiter=';')
+
+5. Get familiar with Python documentation. Most of the time, you will be using predefined functions to which you have to pass the arguments accordingly to documentation. 
+
+3.
+
+Note: Remember that whenever stuck, many resources and blogs online can help you figure it out. 
 ### Test your knowledge
 
 
