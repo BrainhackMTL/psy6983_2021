@@ -36,22 +36,20 @@ The prerequisites to take this module are:
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module was presented by Estefany Suarez and Jacob Vogel during Brainhack School 2020.
+The first portion of this module was presented by Estefany Suarez and Jacob Vogel during Brainhack School 2020 and the 
 
-The tutorial slides and notebook are available [here](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/03-intro-to-machine-learning).
+The tutorial slides are available [here](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/03-intro-to-machine-learning).
 
-The video presentations are available below. The first video (Estefany Suarez) is here:
+The notebook for the exercise is available [here](https://github.com/main-training/main-training-nilearn-ml/blob/master/01_intro_ml.ipynb)
+
+The video presentations are available below. The first video (Estefany Suarez and Jacob Vogel) is here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/thLHAg8oOLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can watch the second (Jacob Vogel) here:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2wj9OJjEDy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 ## Exercise
 
  * Watch the video presentation by Estefany Suarez and go over the slides.
- * Download the [notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/ML_Regression_Tutorial.ipynb) 
- * Watch Jacob Vogel's video and follow along in the Jupyter Notebook.
+ * Download the [notebook](https://github.com/main-training/main-training-nilearn-ml/blob/master/01_intro_ml.ipynb) 
+ * Fo through the tutorial within the Jupyter Notebook and run the code. Feel free to play around with the code to see what happens!
  * Follow up with Désirée Lussier to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
