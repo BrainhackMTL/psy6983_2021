@@ -77,4 +77,8 @@ There are hundreds of excellent resources online for learning Python and/or data
 - Jake Vanderplas's Python Data Science Handbook is also available online as a set of notebooks
 - Kaggle maintains a nice list of data science and Python tutorials
 
+- Neuromatch Academy also has great tutorials available for Python in a computational neuroscience context.
+    - Tutorial 1: https://compneuro.neuromatch.io/tutorials/W0D1_PythonWorkshop1/student/W0D1_Tutorial1.html
+    - Tutorial 2: https://compneuro.neuromatch.io/tutorials/W0D2_PythonWorkshop2/chapter_title.html
+
 If you are curious, eiger to learn more, you can also try out this tutorial which inspired much of the content you saw today. [introduction to Python](https://neurohackademy.org/course/introduction-to-python-2/)
