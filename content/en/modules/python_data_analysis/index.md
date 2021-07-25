@@ -62,13 +62,15 @@ All the tutorial notes related to the video below are available [here](https://g
        # imports 
        import pandas as pd
        import numpy as np
-       import matplotlib
+       import matplotlib.pyplot as plt
+       from sklearn.datasets import load_iris
        %matplotlib inline
 
        
 2. Load the dataset
 
-       data = pd.read_csv('', delimiter=';')
+       data =load_iris()
+
        
 3. Replace missing data with 0
 
