@@ -137,15 +137,19 @@ Hint: the .. refers to the parent directory (i.e., one above the current directo
 What is the output of the closing `ls` command in the sequence shown below:
 
       $ pwd
-/Users/jamie/data
-
+      /Users/jamie/data
       $ ls
-proteins.dat
-
-     $ mkdir recombine
-     $ mv proteins.dat recombine`
-     $ cp recombine/proteins.dat ../proteins-saved.dat
-     $ ls
+      proteins.dat
+      $ mkdir recombine
+      $ mv proteins.dat recombine`
+      $ cp recombine/proteins.dat ../proteins-saved.dat
+      $ ls
+      
+      
+      a) proteins-saved.dat recombine
+      b) recombine
+      c) proteins.dat recombine
+      d) proteins-saved.dat
 
 **Exercice 5 : Copy with Multiple Filenames**
 In the example below, what does `cp` do when given several filenames and a directory name?
@@ -153,7 +157,7 @@ In the example below, what does `cp` do when given several filenames and a direc
     $ mkdir backup
     $ cp amino-acids.txt animals.txt backup/
     $ ls
-amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
+    amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
 
     $ cp amino-acids.txt animals.txt morse.txt
   
