@@ -174,7 +174,17 @@ When run in the molecules directory, which ls command(s) will produce this outpu
     c) ls *t??ne.pdb
     d) ls ethane.*
 
+**Exercise 7 : Renaming files**
+Suppose that you created a plain-text file in your current directory to contain a list of the statistical tests you will need to do to analyze your data, and named it: statstics.txt
 
+After creating and saving this file you realize you misspelled the filename! You want to correct the mistake and remove the incorrectly named file. Which of the following commands could you use to do so?
+
+     cp statstics.txt statistics.txt
+     mv statstics.txt statistics.txt
+     mv statstics.txt .
+     cp statstics.txt .
+     
+     
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
