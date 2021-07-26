@@ -35,7 +35,7 @@ The prerequisites to take this module are:
 
 You environment should be ready to go, everything required was set up during installations! In the video, you will be working with a dataset from https://swcarpentry.github.io/shell-novice/setup.html. Click on this link, and navigate to the section Download files. Download shell-lesson-data.zip, unzip it, and move the file to your Desktop.
 
-Important: Note that if you are working with Windows Linux Subsystem (WSL), paths are a bit different than with Mac/Linux. You will want to use : /mnt/c/Users/-username-/Desktop/ 
+Important: Note that if you are working with Windows Subsystem for Linux (WSL), paths will be a bit different than with Mac/Linux. You will want to use : `/mnt/c/Users/USERNAME/Desktop/`
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -44,10 +44,9 @@ This module was presented by [Ross Markello](https://rossmarkello.com/) during t
 
 All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/11-may/03-intro-to-shell/introduction-to-shell.ipynb). 
 
-The video of the presentation is available below (duration 1h13) :
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video of the presentation is available below (duration 1h13). Follow along with the video of the presentation, typing the command line into your terminal.
 
-Follow along with the video of the presentation, typing the command line into your terminal.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercises
 
@@ -73,9 +72,11 @@ True/False
  - *You can choose multiple options after a command* 
  - *Changing one directory at a time is the same as providing the full path to the final destination*
  - *Environmental variables are preceded by `$`*
- - *Good naming conventions include special characters*
+ - *Good naming conventions of files include special characters*
 
 ## Exercises
+
+Practice makes perfect. 
 
 **Exercise 1**
 Starting from `/Users/amanda/data`, which of the following commands could Amanda use to navigate to her home directory, which is `/Users/amanda`?
@@ -93,10 +94,12 @@ Starting from `/Users/amanda/data`, which of the following commands could Amanda
 
 **Exercice 2**
 
-**2.1.** 
-Based on the following diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
+This is how your filesystem is organised. 
 
-![exercice_2.png](exercice_2.png)
+![filesystem.png](filesystem.png)
+
+**2.1.** 
+Based on the previous diagram, if `pwd` displays `/Users/thing`, what will `ls -F ../backup` display?
 
     a) ../backup: No such file or directory
     b) 2012-12-01 2013-01-08 2013-01-27
@@ -134,24 +137,30 @@ Hint: the .. refers to the parent directory (i.e., one above the current directo
 What is the output of the closing `ls` command in the sequence shown below:
 
       $ pwd
-/Users/jamie/data
-
+      /Users/jamie/data
       $ ls
-proteins.dat
-
-     $ mkdir recombine
-     $ mv proteins.dat recombine`
-     $ cp recombine/proteins.dat ../proteins-saved.dat
-     $ ls
+      proteins.dat
+      $ mkdir recombine
+      $ mv proteins.dat recombine`
+      $ cp recombine/proteins.dat ../proteins-saved.dat
+      $ ls
+      
+      
+      a) proteins-saved.dat recombine
+      b) recombine
+      c) proteins.dat recombine
+      d) proteins-saved.dat
 
 **Exercice 5 : Copy with Multiple Filenames**
 In the example below, what does `cp` do when given several filenames and a directory name?
 
     $ mkdir backup
     $ cp amino-acids.txt animals.txt backup/
-    $ ls
-amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
 
+What does cp do when given three or more filenames?
+
+    $ ls
+    amino-acids.txt  animals.txt  backup/  elements/  morse.txt  pdb/  planets.txt  salmon.txt  sunspot.txt
     $ cp amino-acids.txt animals.txt morse.txt
   
 
@@ -165,7 +174,17 @@ When run in the molecules directory, which ls command(s) will produce this outpu
     c) ls *t??ne.pdb
     d) ls ethane.*
 
+**Exercise 7 : Renaming files**
+Suppose that you created a plain-text file in your current directory to contain a list of the statistical tests you will need to do to analyze your data, and named it: statstics.txt
 
+After creating and saving this file you realize you misspelled the filename! You want to correct the mistake and remove the incorrectly named file. Which of the following commands could you use to do so?
+
+     cp statstics.txt statistics.txt
+     mv statstics.txt statistics.txt
+     mv statstics.txt .
+     cp statstics.txt .
+     
+     
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
@@ -174,5 +193,3 @@ When run in the molecules directory, which ls command(s) will produce this outpu
 If you are curious to solidify your capabilities for using the shell, you can check this tutorial "Effective use of bash" by Ankur Sinha organized for the [INCF/OCNS software working group](https://ocns.github.io/SoftwareWG/2021/06/09/software-wg-tutorials-at-cns-2021-online-bash-git-and-python.html).
 
 You can also try out this tutorial which inspired much of the content you saw today, while exploring the shell in further detail. It covers pipes and filters, loops, shell scripts, finding things. [The Unix Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
-
-<iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

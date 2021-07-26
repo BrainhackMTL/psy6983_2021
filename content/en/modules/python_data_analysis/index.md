@@ -35,15 +35,6 @@ The prerequisites to take this module are:
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
-## Resources
-This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
-
-All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/12-may/01-python-for-data-analysis/python-for-data-analysis.ipynb). 
-
-The video of the presentation is available below (duration 2h38) :
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NcDcoiNMauc&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72&index=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ## Before starting:
 
 1. Open the terminal
@@ -57,8 +48,41 @@ To create a new cell, press the "+" button on lefthand side of the toolbar at th
 
 You are ready for this tutorial and you are strongly encouraged to type along the presentation!
 
-## Exercises
+## Resources
+This module was presented by [Ross Markello](https://rossmarkello.com/) during the QLSC 612 course in 2020.
 
+All the tutorial notes related to the video below are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/12-may/01-python-for-data-analysis/python-for-data-analysis.ipynb). 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N6soV0dlB-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Exercises
+1. Before starting to write some code, you want to set-up your environment. In a Jupyter Notebook start by importing the following librairies:
+       
+       # imports 
+       import pandas as pd
+       import numpy as np
+       import matplotlib.pyplot as plt
+       from sklearn.datasets import load_iris
+       %matplotlib inline
+
+       
+2. Load the dataset
+
+       data =load_iris()
+
+       
+3. Replace missing data with 0
+
+5. Save data
+
+       data = pd.read_csv('https://bit.ly/nds-python-mixed', delimiter=';')
+
+5. Get familiar with Python documentation. Most of the time, you will be using predefined functions to which you have to pass the arguments accordingly to documentation. 
+
+3.
+
+Note: Remember that whenever stuck, many resources and blogs online can help you figure it out. 
 ### Test your knowledge
 
 
@@ -77,5 +101,9 @@ There are hundreds of excellent resources online for learning Python and/or data
 (https://realpython.com/python3-object-oriented-programming/) 
 - Jake Vanderplas's Python Data Science Handbook is also available online as a set of notebooks
 - Kaggle maintains a nice list of data science and Python tutorials
+
+- Neuromatch Academy also has great tutorials available for Python in a computational neuroscience context.
+    - Tutorial 1: https://compneuro.neuromatch.io/tutorials/W0D1_PythonWorkshop1/student/W0D1_Tutorial1.html
+    - Tutorial 2: https://compneuro.neuromatch.io/tutorials/W0D2_PythonWorkshop2/chapter_title.html
 
 If you are curious, eiger to learn more, you can also try out this tutorial which inspired much of the content you saw today. [introduction to Python](https://neurohackademy.org/course/introduction-to-python-2/)

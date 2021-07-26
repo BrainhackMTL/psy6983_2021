@@ -26,7 +26,7 @@ image: "open_data.png"
 
 ## Information
 
-The estimated time to complete this training module is 4h.
+The estimated time to complete this training module is 1.5h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
@@ -39,13 +39,16 @@ This module was presented by Sebastian Urchs during Brainhack School 2020.
 The preseantation slides are available [here](https://docs.google.com/presentation/d/19pp-SwWI-Fi72BCsht_7SAj-uFp0-ijBqRc31sy2-Ag).
 
 The video presentation is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OEhgEo5IAmk&list=PLfqBzCl5BL3-m9BH5qi4u4QzoJBC8Ze72" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OEhgEo5IAmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Exercise
 
  * Watch the video presentation by Sebastian Urchs and go over the slides.
- * Find an open neuroimaging dataset via one of the resource links described in the presentation
+ * Find an open neuroimaging dataset via one of the resource links described in the presentation that has at least 40 participants and including phemotypic information that could be useful to your project (age, cognitive scores, diagnoses, etc.)
+ * Download at least 1 of these participants and their accompanying phenotypic information.
+ * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
 
