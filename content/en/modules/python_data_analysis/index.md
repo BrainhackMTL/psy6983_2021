@@ -57,7 +57,9 @@ All the tutorial notes related to the video below are available [here](https://g
 
 
 ## Exercises
-1. Before starting to write some code, you want to set-up your environment. In a Jupyter Notebook start by importing the following librairies:
+For this part, we will use the famous scikit-learn dataset iris which consists of 3 different types of irises’ (Setosa, Versicolour, and Virginica) with information about petal and sepal length and width stored in a 150x4 numpy.ndarray.
+
+1. Before starting to write some code, you want to set-up the environment so that it load the required modules. In a Jupyter Notebook import the following librairies:
        
        # imports 
        import pandas as pd
@@ -67,25 +69,28 @@ All the tutorial notes related to the video below are available [here](https://g
        %matplotlib inline
 
        
-2. Load the dataset
+2. Load the iris dataset
 
        data =load_iris()
 
        
-3. Replace missing data with 0
+3. Explore the dataset using .keys()
+4. Print the shape and type of data
+5. Store 'data' and 'features_names' in distinct variables
+6. Create a pandas dataframe with 'data' and use feature_names for column names
+7. Get the summary statistics for this dataframe using .describe()
+8. Subset the dataframe to keep only the first 50 rows 
+9. Try to answer this question : Are there any extreme sepal length values? 
+     * Reminder : extreme value are > 3.9 standard deviation. (value - mean) / std. For this one, you might need to use a for loop.
+10. What about other features of the flowers?
+11. Read about the boxplot function in matplotlib to get familiar with python documentation. What does it tell us? 
+https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.boxplot.html
+12. Use this function to plot the boxplot distribution for features. Try adding a title and name for axis. 
+12. Save dataframe in csv format and the plot as png.
 
-5. Save data
+Note: Internet is your best friend. Remember that whenever you are stuck, resources and blogs can help you figure it out. 
 
-       data = pd.read_csv('https://bit.ly/nds-python-mixed', delimiter=';')
-
-5. Get familiar with Python documentation. Most of the time, you will be using predefined functions to which you have to pass the arguments accordingly to documentation. 
-
-3.
-
-Note: Remember that whenever stuck, many resources and blogs online can help you figure it out. 
-### Test your knowledge
-
-
+If you are done, you can play around with different functions. Try to answer interesting questions you might have using the data.
 
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
