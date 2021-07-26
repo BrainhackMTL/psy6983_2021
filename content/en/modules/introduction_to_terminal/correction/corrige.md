@@ -58,6 +58,11 @@ True/False**
          No: / refers to the root directory
          No: Amanda's home directory is /Users/amanda
          No: this goes up two levels, to Users
+         Yes: ~ refers to the home directory, which is Users/amanda.
+         No: this would navigate to the hom directory inside Users/amanda/data (if it exists)
+         Yes: unnecesarily complicated, but correct
+         Yes: this is a shortcut to go back to the user's home directory!
+         Yes: this goes up one directory, to /Users/amanda
          
 **Exercise 2**
 
