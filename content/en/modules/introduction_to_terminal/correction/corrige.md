@@ -29,6 +29,7 @@ True/False**
 - Response : You can ls the content of the directory to make sure names are not exactly the same. Also, you could refer to the -i flag for "interactive" moving (with warnings!).
 
 #### TRUE/FALSE
+
 **We are always located somewhere in the file system**
 True
 **It is possible to be located in more than one place at once**
