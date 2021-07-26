@@ -100,3 +100,5 @@ Here are other good examples of repositories:
 ## Conclusion and acknowledgement
 
 The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
+
+You can also make it into a neurolibre submission https://neurolibre.org/ The submission instructions can be found here https://docs.neurolibre.org/en/latest/index.html and the jupyter book docs there https://jupyterbook.org/intro.html.
