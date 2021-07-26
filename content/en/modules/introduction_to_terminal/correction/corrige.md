@@ -52,7 +52,30 @@ True/False**
 
 #### Exercises 
 
-**Exercise 1**
+**Exercice 1**
+
+         No: . refers to the current working directory
+         No: / refers to the root directory
+         No: Amanda's home directory is /Users/amanda
+         No: this goes up two levels, to Users
+         
+**Exercise 2**
+
+2.1.
+         No: there is a directory backup in Users
+         No: this is the content of /Users/thing/backup, but .. means we are one level up from that
+         No: for the same reason as (2)
+         Yes: ../backup refers to /Users/backup
+
+2.2.
+
+         No: pwd is not the name of a directory, it is a command.
+         Yes: ls without any arguments will list the contents of the current directory.
+         Yes: providing the absolute path of the directory will work.
+
+**Exercice : Moving files to a new folder**
+          
+          mv sucrose.dat maltose.dat ../raw
 
 **Exercise : Renaming files**
 
