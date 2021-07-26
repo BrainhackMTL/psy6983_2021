@@ -86,7 +86,6 @@ The repository of this project can be found [here](https://github.com/mtl-brainh
 
 ##### Other projects
 Here are other good examples of repositories:
-- ADD 2020 projects
 - [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
 - [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
 - [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
