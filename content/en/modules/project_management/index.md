@@ -49,9 +49,9 @@ Prepare your answers in an online document (e.g. using hackmd.io).
    * you want to share code and make sure it can be used as widely as possible, but you still get credited. Which license do you pick and why?
    * you want to share data, get credited, allow for modifications but not commercial usage. Which license do you pick and why?
  * Pick a public dataset and explain if it is FAIR. You can pick from the list below if you need inspiration.
-  * [ADNI](http://adni.loni.usc.edu/)
-  * [UK biobank](https://www.ukbiobank.ac.uk/)
-  * [CIMAQ](http://www.cima-q.ca/en/home/)
+   * [ADNI](http://adni.loni.usc.edu/)
+   * [UK biobank](https://www.ukbiobank.ac.uk/)
+   * [CIMAQ](http://www.cima-q.ca/en/home/)
  * Find an example of a neuroimaging paper described on the open science framework (or somewhere else), with 1. code available? 2. Documentation for data analysis available? 3. Data available? For each aspect, summarize briefly the standards followed (if any).
  * Follow up with Pierre Bellec to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
