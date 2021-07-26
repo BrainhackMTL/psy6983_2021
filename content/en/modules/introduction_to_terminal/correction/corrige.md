@@ -62,6 +62,7 @@ True/False**
 **Exercise 2**
 
 2.1.
+
          No: there is a directory backup in Users
          No: this is the content of /Users/thing/backup, but .. means we are one level up from that
          No: for the same reason as (2)
