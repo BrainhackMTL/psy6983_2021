@@ -1,6 +1,6 @@
-Short answers
+#### Short answers
 **What are some of the main advantages of using the shell?**
-- Response
+Possible responses
 - High action-to-keystroke ratio
 - Support for automating repetitive tasks
 - Capacity to access remote machines
@@ -28,7 +28,7 @@ Response : The top of the file system is the root directory, it holds the ENTIRE
 True/False**
 - Response : You can ls the content of the directory to make sure names are not exactly the same. Also, you could refer to the -i flag for "interactive" moving (with warnings!).
 
-TRUE/FALSE
+#### TRUE/FALSE
 **We are always located somewhere in the file system**
 True
 **It is possible to be located in more than one place at once**
@@ -42,8 +42,7 @@ True (in most cases)
 **Good naming conventions of files include special characters**
 False
 
-Exercises 
-
+#### Exercises 
 **Exercise : Renaming files**
 No: this would create a file with the correct name but would not remove the incorrectly named file
 Yes: this would rename the file!
