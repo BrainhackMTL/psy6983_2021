@@ -31,38 +31,52 @@ True/False**
 #### TRUE/FALSE
 
 **We are always located somewhere in the file system**
-True
+
+           True
 **It is possible to be located in more than one place at once**
-False
+
+          False
 **You can choose multiple options after a command**
-True
+
+          True
 **Changing one directory at a time is the same as providing the full path to the final destination**
-True
+
+          True
 **Environmental variables are preceded by $**
-True (in most cases)
+
+          True (in most cases)
+          
 **Good naming conventions of files include special characters**
-False
+
+          False
 
 #### Exercises 
+
+**Exercise 1**
+
 **Exercise : Renaming files**
-No: this would create a file with the correct name but would not remove the incorrectly named file
-Yes: this would rename the file!
-No, the . indicates where to move the file but does not provide a new name.
-No, the . indicates where to copy the file but does not provide a new name.
+
+          No: this would create a file with the correct name but would not remove the incorrectly named file
+          Yes: this would rename the file!
+          No, the . indicates where to move the file but does not provide a new name.
+          No, the . indicates where to copy the file but does not provide a new name.
 
 **Exercise : Moving and copying**
-No: proteins-saved.dat is located at /Users/jamie
-Yes!
-No: proteins.dat is located at /Users/jamie/data/recombine
-No, proteins-saved.dat is located at /Users/jamie
+
+          No: proteins-saved.dat is located at /Users/jamie
+          Yes!
+          No: proteins.dat is located at /Users/jamie/data/recombine
+          No, proteins-saved.dat is located at /Users/jamie
 
 **Exercise : Copy with multiple filenames**
-When given multiple filenames followed by a directory all the files are copied into the directory.
-When give multiple filenames with no directory, cp throws an error:
-cp: target morse.txt is not a directory
+
+          When given multiple filenames followed by a directory all the files are copied into the directory.
+          When give multiple filenames with no directory, cp throws an error:
+          cp: target morse.txt is not a directory
 
 **Exercise : List filenames matching a pattern**
-No: This will give ethane.pdb methane.pdb octane.pdb pentane.pdb
-No: this will give octane.pdb pentane.pdb
-Yes!
-No: This only shows file starting with ethane
+
+          No: This will give ethane.pdb methane.pdb octane.pdb pentane.pdb
+          No: this will give octane.pdb pentane.pdb
+          Yes!
+          No: This only shows file starting with ethane
