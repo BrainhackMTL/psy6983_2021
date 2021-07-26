@@ -58,6 +58,115 @@ The video is available below:
  * Follow up with François Paugam to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
+<br>
+
+## On the usefulness of `if __name__ == "__main__":`
+
+It is not obvious why you shoud put the `if __name__ == "__main__":` line in your script. Indeed in a lot of cases, putting it or not won't change anything to how your code runs. But in specific settings with multiple scripts importing from each pother, not putting it in can quickly lead to a nightmare.
+To give you an insight of how and why it is useful, here is an example.
+
+Suppose you have a script to fit a Ridge model on provided data, judiciously named `fit_Ridge.py`, which looks like this :
+```
+#!/usr/bin/env python
+import argparse
+import pickle  # pickle is a librairie to save and load python objects.
+import numpy as np
+from sklearn.linear_model import Ridge
+
+def  fit_Ridge_model(X, Y):
+  model = Ridge()
+  model.fit(X, Y)
+  return model
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--X_data_path", type=str)
+parser.add_argument("--Y_data_path", type=str)
+parser.add_argument("--output_path", type=str)
+args = parser.parse_args()
+
+X = np.load(args.X_data_path)
+Y = np.load(args.Y_data_path)
+model = fit_Ridge_model(X, Y)
+pickle.dump(model, open(args.output_path, 'wb'))
+```
+This script allows the user to provide the paths to two numpy files as data to fit a Ridge model, and to save the model to the provided path with a command like :
+```
+python fit_Ridge.py --X_data_path data_folder/X.npy --Y_data_path data_folder/Y.npy --output_path models/Ridge.pk
+```
+There is no `if __name__ == "__main__":` to be seen but, used on its own, the script works fine.
+
+But later, you write an other script `compare_to_Lasso.py` that compare Ridge and Lasso models on the same data, so you need to fit a Ridge model again. Eager to apply the good practices of programming, you judiciously decide not to duplicate the code for fitting a ridge model, but to import the `fit_Ridge_model` function from the `fit_Ridge.py`. Thus your second script looks like that :
+```
+#!/usr/bin/env python
+import numpy as np
+import argparse
+from sklearn.linear_model import Lasso
+from fit_Ridge import fit_Ridge_model
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--X_data_path", type=str)
+parser.add_argument("--Y_data_path", type=str)
+args = parser.parse_args()
+
+X = np.load(args.X_data_path)
+Y = np.load(args.Y_data_path)
+
+ridge_model = fit_Ridge_model(X, Y)
+lasso_model = Lasso()
+lasso_model.fit(X, Y)
+
+ridge_score = ridge_model.score(X, Y)
+lasso_score = lasso_model.score(X, Y)
+
+if Ridge_score > lasso_score:
+    print("Ridge model is better.")
+else:
+    print("Lasso model is better.")
+```
+
+It seems fine but here when you try to call
+```
+python compare_to_Lasso.py --X_data_path data_folder/x.npy --Y_data_path data_folder/Y.npy
+```
+you get an error :
+```
+Traceback (most recent call last):
+  File "compare_lasso_ridge.py", line 5, in <module>
+    from fit_Ridge import fit_Ridge_model
+  File "/Users/francois/scratch/fit_Ridge.py", line 21, in <module>
+    pickle.dump(model, open(args.output_path, 'wb'))
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+```
+
+The error shows that the script tried to save a model to the path `args.output_path`, which was not defined so it was set to None and raised a TypeError. But our `compare_to_Lasso.py` script never tries to save a model ! Indeed looking at the other lines of the error message, we see that it comes from the import. In fact what happens is that when we try to import the `fit_Ridge_model` fuction from the `fit_Ridge.py` file, python will read the entire file and execute everything that is written in it, so it will try to fit a Ridge model and to save it. But we don't want python to execute everything, we just want it to read the definition of the `fit_Ridge_model` function. That is why here we absolutely need the `if __name__ == "__main__":`, so we modify the `fit_Ridge.py` script like that :
+```
+#!/usr/bin/env python
+import argparse
+import pickle  # pickle is a librairie to save and load python objects.
+import numpy as np
+from sklearn.linear_model import Ridge
+
+def  fit_Ridge_model(X, Y):
+    model = Ridge()
+    model.fit(X, Y)
+    return model
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--X_data_path", type=str)
+    parser.add_argument("--Y_data_path", type=str)
+    parser.add_argument("--output_path", type=str)
+    args = parser.parse_args()
+
+    X = np.load(args.X_data_path)
+    Y = np.load(args.Y_data_path)
+    model = fit_Ridge_model(X, Y)
+    pickle.dump(model, open(args.output_path, 'wb'))
+```
+Now when importing from this script, python will read the definition of the function, but after that it will not execute the rest, since during the import the variable `__name__` is not set to `"__main__"` but to `"fit_Ridge"`.
+
+In the end using `if __name__ == "__main__":` is the only way to safely import functions from our script, and since you never know for sure that you won't have to import something from a script in the future, putting it in all of your script by default is not a bad idea.
+
 ## More resources
 
 If you are curious to learn more advanced capabilities for the Argparse library, you can check this [Argparse tutorial](https://docs.python.org/3/howto/argparse.html).
