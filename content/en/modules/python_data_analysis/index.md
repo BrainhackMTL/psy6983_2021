@@ -88,7 +88,7 @@ https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.boxplot.html
 12. Use this function to plot the boxplot distribution for features. Try adding a title and name for axis. 
 12. Save dataframe in csv format and the plot as png.
 
-Note: Internet is your best friend. Remember that whenever you are stuck, resources and blogs can help you figure it out. 
+Note: Internet is your best friend. Remember that whenever you are stuck, resources and blogs can help you figure it out (Stack Overflow). 
 
 If you are done, you can play around with different functions. Try to answer interesting questions you might have using the data.
 
