@@ -1,6 +1,6 @@
 def change_case(string):
     if len(string) > 0:
-        new_string = string[0].upper() + string[1:].lower()
+        new_string = string[:-1].lower() + string[-1].upper()
     else:
         new_string = ""
     return new_string
