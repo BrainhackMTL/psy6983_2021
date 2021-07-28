@@ -13,9 +13,9 @@ type = "weeks"
   description = """
   Week 1 will introduce participants to a reproducible computational toolkit for neural data science, as well as a basic grounding in supervised and unsupervised machine learning methods. Short pre-recorded lectures and hands-on tutorials throughout the five days will provide participants with familiarity applying these methods to real data. Each participant will be required to complete 6 tutorials out of the following list:
   * :star: [Installation of software](/modules/installation) for PSY6983.
-  * :star: [Introduction to the terminal](/modules/terminal).
+  * :star: [Introduction to the terminal](/modules/introduction_to_terminal).
   * :star: [Introduction to git and github](/modules/git_github).
-  * [Python for data analysis](/modules/python).
+  * [Python for data analysis](/modules/python_data_analysis).
   * [Machine learning - basics](/modules/machine_learning).
   * [Project management](/modules/project_management).
   * [High performance computing](/modules/high_performance_computing).
