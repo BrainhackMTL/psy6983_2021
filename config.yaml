@@ -45,10 +45,14 @@ languages:
           name: Register
           url: /register/
           weight: 6
+        - parent: documents
+          name: Getting started
+          url: /guide/
+          weight: 7
         - identifier: Modules
           name: Modules
           url: /modules/
-          weight: 6
+          weight: 8
 
 
       topbar:
@@ -176,6 +180,11 @@ languages:
           name: Register
           url: /register/
           weight: 6
+        - parent: documents
+          name: Guide de démarrage rapide
+          url: /fr/guide/
+          weight: 7
+
 
       topbar:
         - weight: 1

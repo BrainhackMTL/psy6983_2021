@@ -61,6 +61,7 @@ Prepare your answers in an online document (e.g. using hackmd.io).
 If you are curious to learn more about BIDS, check the [BIDS specifications](https://bids-specification.readthedocs.io/en/stable/). There will also be a training module on BIDS in week 2.
 
 Some documentation on standards for project organization:
+ * the entire "the Turing way" documentation is relevant, but the section on [project design](https://the-turing-way.netlify.app/project-design/project-design.html) is the most important for this training module.
  * the [data science cookie cutter](https://drivendata.github.io/cookiecutter-data-science/)
  * the [YODA principles](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html)
 
