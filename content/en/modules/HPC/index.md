@@ -73,12 +73,13 @@ The video of his presentation is available below:
  ```
  Alternatively, the instructions can also be seen here :
 
- {{< tabs tabTotal="5" tabID="instructions" tabName1="1-base" tabName2="2-sequentielles" tabName3="3-gnu-parallel" tabName4="4-lot-de-taches" tabName5="5-tache-mpi" >}}
- {{< tab tabNum="1" >}} {{% content "content/en/modules/HPC/1-base.md" %}} {{< /tab >}}
- {{< tab tabNum="2" >}} {{% content "content/en/modules/HPC/2-sequentielles.md" %}} {{< /tab >}}
- {{< tab tabNum="3" >}} {{% content "content/en/modules/HPC/3-gnu-parallel.md" %}} {{< /tab >}}
- {{< tab tabNum="4" >}} {{% content "content/en/modules/HPC/4-lot-de-taches.md" %}} {{< /tab >}}
- {{< tab tabNum="5" >}} {{% content "content/en/modules/HPC/5-tache-mpi.md" %}} {{< /tab >}}
+ {{< tabs tabTotal="6" tabID="instructions" tabName1="0-setting-up" tabName2="1-base" tabName3="2-sequentielles" tabName4="3-gnu-parallel" tabName5="4-lot-de-taches" tabName6="5-tache-mpi" >}}
+ {{< tab tabNum="1" >}} {{% content "content/en/modules/HPC/0-setting-up.md" %}} {{< /tab >}}
+ {{< tab tabNum="2" >}} {{% content "content/en/modules/HPC/1-base.md" %}} {{< /tab >}}
+ {{< tab tabNum="3" >}} {{% content "content/en/modules/HPC/2-sequentielles.md" %}} {{< /tab >}}
+ {{< tab tabNum="4" >}} {{% content "content/en/modules/HPC/3-gnu-parallel.md" %}} {{< /tab >}}
+ {{< tab tabNum="5" >}} {{% content "content/en/modules/HPC/4-lot-de-taches.md" %}} {{< /tab >}}
+ {{< tab tabNum="6" >}} {{% content "content/en/modules/HPC/5-tache-mpi.md" %}} {{< /tab >}}
  {{< /tabs >}}
 
 

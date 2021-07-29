@@ -20,9 +20,9 @@ Please check the official documentation for advanced options:
 For this exercise, we will reuse the output of the "ls" command with $( ).
 For example, to display the content of "../photos" in
 parallal, we would use GNU parallel the following way:
-
+```
    parallel echo {1} ::: $(ls ../photos)
-
+```
 In this example, {1} refers to the first variable in the command template.
 The operator ":::" separates the template from values for the first variable.
 We could define multiple variables ({1}, {2}, etc.) by adding more ":::"
@@ -38,9 +38,9 @@ We will use the parallel command to convert all pictures in
   * Use the parallel command and the list of files in
     "../photos"
   * Submit the job with the command
-
+```
    sbatch submit.sh
-
+```
   * Verify that the job generates multiple images in the current folder.
 
 ==== Advanced Instructions ====

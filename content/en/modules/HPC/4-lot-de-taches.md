@@ -18,24 +18,24 @@ SLURM_ARRAY_TASK_ID environment variable. The possible values are defined by
 the job array.
 
 The syntax is the following:
-
+```
   #SBATCH --array=<start>-<end>:<step>
-
+```
 For example, for a job array of 5 jobs, where SLURM_ARRAY_TASK_ID would be
 1, 3, 5, 7 and 9, we would request:
-
+```
   #SBATCH --array=1-9:2
-
+```
 ==== An Array in Bash ====
 
 Bash supports arrays. A Bash array can be declared the following way:
-
+```
   MY_ARRAY=(value1 value2 value3 value4)
-
+```
 To access a specific element in the array:
-
+```
   ${MY_ARRAY[$i]}
-
+```
 where $i would be a variable having values from 0 through 3.
 That means 'value1' is at position 0, and 'value4' is at position 3.
 
