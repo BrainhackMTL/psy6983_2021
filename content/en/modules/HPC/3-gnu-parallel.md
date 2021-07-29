@@ -12,10 +12,8 @@ main input formats:
   * Lists of values on the command line
   * Lists of values in a file
 
-Please check the Compute Canada wiki for basic options:
-  * [https://docs.computecanada.ca/wiki/GNU_Parallel]
-Please check the official documentation for advanced options:
-  * [http://www.gnu.org/software/parallel/man.html]
+Please check the [Compute Canada wiki](https://docs.computecanada.ca/wiki/GNU_Parallel) for basic options, and the [official documentation](http://www.gnu.org/software/parallel/man.html) for advanced options.
+
 
 For this exercise, we will reuse the output of the "ls" command with $( ).
 For example, to display the content of "../photos" in
@@ -35,8 +33,8 @@ We will use the parallel command to convert all pictures in
 
   * Request 2 cores with the --cpus-per-task option in the job submission
     script header
-  * Use the parallel command and the list of files in
-    "../photos"
+  * Use the parallel command on filterImage.exe to run it on the list of files in
+    "../photos" (you can mimic the example line above, replacing `echo` by the adequate command).
   * Submit the job with the command
 ```
    sbatch submit.sh
@@ -45,9 +43,7 @@ We will use the parallel command to convert all pictures in
 
 ==== Advanced Instructions ====
 
-Modify your job script in order to process all pictures with the
-"grayscale" filter only, and then with the "negate" filter.
-Basically, you have to define a second variable to your command template.
+Modify your job script so that it also creates images applying the "negate" filters (it shouldn't apply both filters at the same time but for each input image, it should create two output files, one with the grayscale filter and one with the negate filter). It should still do that in parallel, so you have to define a second variable to your command template that corresponds to the filter.
 
   * Verify that the job generates twice as many files in the local folder.
 
