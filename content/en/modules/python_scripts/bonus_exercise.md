@@ -18,10 +18,10 @@ You pair up the letters of the message with the ones of the key one by one, and 
 ```
 and so on.
 
-Here we will follow this principle, but instead of directly having `index(message_letter) + index(key_letter)` as the index of the encrypted letter, we will turn it into an other base, depending on the rest of the division of the key's index by 5. So the base `k` of the encrypted letter will be : `k = 5 + index(key_letter) % 5`.
+Here we will follow this principle, but instead of directly having `index(message_letter) + index(key_letter)` as the index of the encrypted letter, we will turn it into an other base, depending on the rest of the division of the key's index by 5. So the base `k` of the encrypted letter will be : `k = 5 + (index(key_letter) % 5)`.
 For example if the index of the message letter is 47 and the index of the key letter is 19, the index of the encrypted letter will be 47 + 19 = 66, which should be turned into base 5 + 4 = 9 which finally gives 73 (indeed 7*9 + 3 = 66).
 
-For the indices of the letter, we will not use the the number of the letter in the alphabet, but the unicode index of the letter, which is easily obtained with the native python function `ord`. The reverse operation of getting a letter from its unicode index is obtained with native python function `chr`. There are 1114112 unicode characters handled by python, so we'll have to make sure we have indices in the range 0 to 1114111. To ensure that, we can use values modulo 1114111, i.e. `encrypted_index = base_k(ord(message_letter) + ord(key_letter), k) % 1114111`.
+For the indices of the letter, we will not use the the number of the letter in the alphabet, but the unicode index of the letter, which is easily obtained with the native python function `ord`. The reverse operation of getting a letter from its unicode index is obtained with native python function `chr`. There are 1114112 unicode characters handled by python, so we'll have to make sure we have indices in the range 0 to 1114111. To ensure that, we can use values modulo 1114112, i.e. `encrypted_index = base_k(ord(message_letter) + ord(key_letter), k) % 1114112`.
 
 In a file `cipher.py`, you'll implement the following functions :
 * `base_k(n, k)` : return the number `n` in the base of `k`. E.g. `base_k(78, 7)` should return `141`.

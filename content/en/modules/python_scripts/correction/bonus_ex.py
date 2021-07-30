@@ -21,13 +21,13 @@ def base_10(n, k):
 
 def encrypt_letter(msg, key):
     k = 5 + ord(key) % 5
-    enc_id = base_k(ord(msg)+ord(key), k) % 1114111
+    enc_id = base_k(ord(msg)+ord(key), k) % 1114112
     return chr(enc_id)
 
 
 def decrypt_letter(msg, key):
     k = 5 + ord(key) % 5
-    dec_id = (1114111 + base_10(ord(msg), k) - ord(key)) % 1114111
+    dec_id = (1114112 + base_10(ord(msg), k) - ord(key)) % 1114112
     return chr(dec_id)
 
 
