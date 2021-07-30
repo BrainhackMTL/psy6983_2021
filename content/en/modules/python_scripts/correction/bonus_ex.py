@@ -33,12 +33,13 @@ def decrypt_letter(msg, key):
 
 
 def process_message(message, keys, encrypt):
-    while len(keys) < len(message):
-        keys += keys
     returned_message = ""
 
     for i, letter in enumerate(message):
-        returned_message += encrypt_letter(letter, keys[i]) if encrypt else decrypt_letter(letter, keys[i])
+        if encrypt:
+            returned_message += encrypt_letter(letter, keys[i%len(key)])
+        else:
+            returned_message += decrypt_letter(letter, keys[i%len(key)])
 
     return returned_message
 
