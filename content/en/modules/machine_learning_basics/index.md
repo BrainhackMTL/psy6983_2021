@@ -36,7 +36,7 @@ The prerequisites to take this module are:
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-The first portion of this module was presented by Estefany Suarez and Jacob Vogel during Brainhack School 2020 and the 
+The first portion of this module was presented by Estefany Suarez and Jacob Vogel during Brainhack School 2020 and the notebook by Alexandre Hutton during for the MAIN 2019 machine learning workshop. 
 
 The tutorial slides are available [here](https://github.com/neurodatascience/course-materials-2020/tree/master/lectures/14-may/03-intro-to-machine-learning).
 
