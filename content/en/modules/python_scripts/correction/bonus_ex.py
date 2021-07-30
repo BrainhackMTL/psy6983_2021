@@ -1,4 +1,5 @@
 import argparse
+import os
 
 def base_k(n, k):
     assert 0 < k and k < 10
@@ -49,4 +50,26 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     encrypt = args.mode == "enc"
-    print(process_message(args.message, args.key, encrypt))
+
+    if os.path.isfile(args.message):
+        save_message = True
+        with open(args.message, 'r') as f:
+            message = f.read()
+    else:
+        message = args.message
+
+    if os.path.isfile(args.key):
+        with open(args.key, 'r') as f:
+            key = f.read()
+    else:
+        key = args.key
+
+    processed_message = process_message(message, key, encrypt)
+
+    if save_message:
+        suffix = "_encrypted" if encrypt else "_decrypted"
+        save_path = os.path.splitext(args.message)[0] + suffix + ".txt"
+        with open(save_path, 'w') as f:
+            f.write(processed_message)
+    else:
+        print(processed_message)

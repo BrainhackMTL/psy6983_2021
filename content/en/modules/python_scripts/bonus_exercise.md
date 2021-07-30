@@ -46,11 +46,29 @@ python cipher.py --message "ðōϪƕýŕ" --key "clef" --mode dec
 'coucou'
 ```
 
-Finally, decode the following text :
+Finally, decrypt the following text :
 ```
 Ô÷ԼВzϾ֍ćЁ¡ȦóІԩţϭĭВƐÉÉչȧôđȒЀĮƩȒЉƛìāԼњyչչĮƔöȖĬЇՀϽϩyԪţƝćքϩöČȖƔóƮȕƝţāԨԬúϾӅÒǾ¡ƧyЊչϷϼĬѷƦàąԳȕöþƓϫþưȝВèßĂԬѢąԟԲþȩ±ȖĄѡѡȠϼþԽƮëÈӈȝýöƛƳĶȜ϶ƦäĎэԵþԠ
 ```
 with the following key :
 ```
 This is the (not so) secret key.
+```
+
+### Bonus in the bonus (bonusception)
+
+Modify your script so that the message and key arguments can be paths to text files. To do this I suggest you use the `isfile` function from the `os.path` package :
+```
+import os
+
+os.path.isfile(mystring)
+```
+It will return True if mystring is a valid path to a file and False otherwise.
+
+Then if your script detects arguments that are paths to files, it should use the text contained in the file.
+Also, if the message argument is a path to a file, the processed message should be saved to a new file with the same name appended with "_encrypted" or "_decrypted" depending on the mode argument.
+
+After that you can use the decrypted text from earlier as a key to decrypt the file obtained with :
+```
+wget https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/python_scripts/message_encrypted.txt
 ```
