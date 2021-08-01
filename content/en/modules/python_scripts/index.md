@@ -59,6 +59,14 @@ The video is available below:
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 <br>
+<details>
+
+<summary> <h2> Bonus exercise (click to show) <h2/></summary>
+
+{{% content "content/en/modules/python_scripts/bonus_exercise.md" %}}
+
+</details>
+<br>
 
 ## On the usefulness of `if __name__ == "__main__":`
 
@@ -166,6 +174,7 @@ if __name__ == "__main__":
 Now when importing from this script, python will read the definition of the function, but after that it will not execute the rest, since during the import the variable `__name__` is not set to `"__main__"` but to `"fit_Ridge"`.
 
 In the end using `if __name__ == "__main__":` is the only way to safely import functions from our script, and since you never know for sure that you won't have to import something from a script in the future, putting it in all of your script by default is not a bad idea.
+
 
 ## More resources
 

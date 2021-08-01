@@ -8,9 +8,9 @@ workload on multiple compute nodes, and each part of the task is computed
 in parallel in different processes. Coding an MPI application is relatively
 complex. On the other hand, using such an application remains simple.
 All one needs to do is to use the "mpiexec" command. For example:
-
+```
   mpiexec ../filterImage.exe ....
-
+```
 Note: if some application does not use MPI to split the workload, all created
       processes will do the same workload, and all the workload many times.
       For example: mpiexec hostname
