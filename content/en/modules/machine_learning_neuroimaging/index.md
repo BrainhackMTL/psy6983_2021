@@ -16,7 +16,7 @@ tags: [fMRI, machine learning, neuroimaging]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "An introduction to fMRI data: the captured signal, the main steps of preprocessing and how functional connectivity is calculated."
+summary: "Application of machine learning to fMRI data analysis. In this module, we will go over the steps predicting age using rs-fMRI data."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -31,23 +31,27 @@ The estimated time to complete this training module is 4h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [introduction to python for data analysis](/modules/python_data_analysis) module.
+ * Introduction to machine learning
 
-Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
+Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-This module was presented by Pierre Bellec during the QLSC 612 course in 2020, the slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit#slide=id.p).
+This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the slides are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/ML_Regression_Tutorial.ipynb).
 
 The video of the presentation is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RoKt_c08wx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2wj9OJjEDy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you need to resfresh some machine learning concepts before diving in, here is the link to slides: https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/IntroML_BrainHackSchool.pdf
+
 
 
 ## Exercise
 
- * Download the jupyter notebook with the folowing command, follow it carefully and complete the 3 exercises at the end.
- ```
- wget https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/content/en/modules/fmri_connectivity/BHS_fMRI_connectivity.ipynb
- ```
- * Follow up with François Paugam to validate you completed the exercise correctly.
+ * 1. Download the jupyter notebook
+ * 2. Watch the video while typing along with the commands
+ * 3.
+ 
+ * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
