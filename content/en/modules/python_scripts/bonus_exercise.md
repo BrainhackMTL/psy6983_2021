@@ -5,7 +5,7 @@ The Vignere cipher consists in shifting the letters of the message to encrypt by
 :warning: Note that here by index I mean the index of the letter in the alphabet (or in the character table you use) and not the index of the letter in the message string.
 
 
-You pair up the letters of the message with the ones of the key one by one, and repeating the key if it is shorter than the message. For example if the message is `My awesome message` and the key is `my key`, the pairs will be :
+You pair up the letters of the message with the ones of the key one by one, and repeating the key if it is shorter than the message. For example if the message is `Myawesomemessage` and the key is `mykey`, the pairs will be :
 ```
 (M,m),
 (y,y),
