@@ -56,4 +56,6 @@ The video of her presentation is available below:
 If you want to learn more, check:
  * the [datalad handbook](http://handbook.datalad.org), which features lot of additional resources as well!
  * the [datalad datasets](https://github.com/datalad-datasets) github organization, which provides an easy access to a number of data resources. This type of DataLad repositories are the easiest way to get access to datasets.
+ * note that for the last part of the tutorial you will need to install [singularity](https://sylabs.io/singularity/) and the `datalad-container` extension (installable through `pip`).
  * all of the Open Neuro datasets available on the [Open Neuro](https://github.com/OpenNeuroDatasets) github organization.
+ * you can also read about the [YODA](https://handbook.datalad.org/en/latest/basics/101-127-yoda.html) principles for reproducible papers.
