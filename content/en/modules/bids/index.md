@@ -43,7 +43,7 @@ The video of his presentation is available below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ceB3Nne-MDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
- * Download a few subjects (n=3) from the dataset [DS0028](https://openneuro.org/datasets/ds000228/versions/1.1.0) on openneuro.
+ * Download a few subjects (n=3) from the dataset [DS000228](https://openneuro.org/datasets/ds000228/versions/1.1.0) on openneuro. Hint: the dataset is available with datalad from this [git](https://github.com/OpenNeuroDatasets/ds000228) repository.
  * Check that the resulting folder is a bids-compliant dataset.
  * Did you get any warnings? Explain what they are and whether they are a concern.
  * Follow up with Pierre Bellec to validate you completed the exercise correctly.
