@@ -30,6 +30,7 @@ The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
+ * the [introduction to python for data analysis](/modules/python_data_analysis) module.
 
 Contact François Paugam if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
