@@ -33,7 +33,7 @@ The prerequisites to take this module are:
  * [introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
  * [introduction to machine learning ](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/) module
 
-Recommended but not mandatory : 
+Recommanded but not mandatory : 
  * [fmri connectivity ](https://psy6983.brainhackmtl.org/modules/fmri_connectivity/) module
  * [fmri parcellation ](https://psy6983.brainhackmtl.org/modules/fmri_parcellation/) module
 
@@ -51,14 +51,15 @@ If you need to resfresh some machine learning concepts before this tutorial, you
 
 ## Exercise
 
- * 1. Download the jupyter notebook, or start a new jupyter notebook 
+ * 1. Download the jupyter notebook (save raw version), or start a new jupyter notebook 
  * 2. Watch the video and test the code yourself
 
 Using the same dataset 
  * Tweak the pipeline in the tutorial, by applying PCA to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
  * Implement cross-validation, but this time changing for leave-one-out.
- * Plot the performance of the different polynomial fit (MSE) for train and test error. What do you observe?
- * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This  especially relevant when we have > 2000 features as it is the case here! Apply a penalty to the SVC model by changing the default in argument. Refer to https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html. Compare with previous results.
+ * What are the features we are using in this model? How did we go from (168, 64) to (64 x 64)?
+ * Using the performance of the different polynomial fit (MSE) for train and test error, explain why increasing complexity of models does not necessarily lead to a better model. 
+ * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This  especially relevant when we have > 2000 features ! Apply a penalty to the SVC model by changing the default in argument. Refer to https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html. Compare with previous results.
  
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
