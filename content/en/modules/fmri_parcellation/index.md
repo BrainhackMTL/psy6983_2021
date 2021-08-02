@@ -38,7 +38,7 @@ The prerequisites to take this module are:
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-The first portion of this module was presented by Pierre Bellec during Brainhack School 2020
+The first portion of this module was presented by Pierre Bellec during Brainhack School 2020 and teh notebook was created by Desiree Lussier for this module.
 
 The tutorial slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing).
 
@@ -48,7 +48,9 @@ The video presentation is available here:
 ## Exercise
 
  * Watch the video presentation by Pierre Bellec and go over the slides.
- * (exercises to be added shortly)
+ * Download the notebook created for this module found [here](https://github.com/BrainhackMTL/psy6983_2021/edit/master/content/en/modules/fmri_parcellation/)
+ * Run the notebook to view the parcellation for the atlas example.
+ * Create new code blocks in your notebook and the example to retrive three other atlases using Nilearn datasets, the documentation for which you can find [here](https://nilearn.github.io/modules/reference.html#module-nilearn.datasets), and view the atlases in your notebook.
  * Follow up with Désirée Lussier to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
