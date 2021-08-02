@@ -38,7 +38,7 @@ Contact François Paugam if you have questions on this module, or if you want to
 This module was presented by Pierre Bellec during the QLSC 612 course in 2020, the slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit#slide=id.p).
 
 The video of the presentation is available below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RoKt_c08wx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RoKt_c08wxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Exercise
