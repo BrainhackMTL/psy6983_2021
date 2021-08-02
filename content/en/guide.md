@@ -11,8 +11,8 @@ We made a bunch of GIFs because GIFs are worth 5000 words. You can see them when
 
 <details>
 
-<summary> :stars: GIF - Click to <b>open</b> this useless GIF :arrow_down: </summary>
-<img src="../../static/img/guide/useless_gif.webp" alt="useless GIF"/>
+<summary> &#127776 GIF - Click to <b>open</b> this useless GIF &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/useless_gif.webp" alt="useless GIF"/>
 
 </details>
 
@@ -37,6 +37,7 @@ We will first give some quick pointers to help you configure and use the tool in
 
 Any question ? Ask us in the `#help-general` channel.
 
+<a name="1-Configuring-your-account"></a>
 ### 1. Configuring your account
 
 #### PROFILE
@@ -48,10 +49,11 @@ When you set up your profile there are two things to bear in mind:
 
 <details>
 
-<summary> :stars: GIF - To <b>edit</b> your profile :arrow_down: </summary>
-<img src="../../static/img/guide/discord_update_profile.gif" alt="Edit yout profile"/>
+<summary> &#127776 GIF - To <b>edit</b> your profile &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_update_profile.gif" alt="Edit yout profile"/>
 
 </details>
+<br/>
 
 #### STATUS UPDATES
 
@@ -66,11 +68,13 @@ Your status is by default managed automatically by Discord, which will update it
 
 <details>
 
-<summary> :stars: GIF - To <b>update</b> your status :arrow_down: </summary>
-<img src="../../static/img/guide/discord_update_status.gif" alt="Update your status"/>
+<summary> &#127776 GIF - To <b>update</b> your status &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_update_status.gif" alt="Update your status"/>
 
 </details>
+<br/>
 
+<a name="2-Channel-and-Notification-settings"></a>
 ### 2. Channel and Notification settings
 
 #### How use and create channels
@@ -83,15 +87,16 @@ You can create new categories or channels for relevant topics (e.g. your project
 
 <details>
 
-<summary> :stars: GIF - To <b>create</b> a new channel :arrow_down: </summary>
-<img src="../../static/img/guide/discord_create_channel.gif" alt="Create a new channel"/>
+<summary> &#127776 GIF - To <b>create</b> a new channel &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_create_channel.gif" alt="Create a new channel"/>
 
 </details>
+<br/>
 
-| :warning: A note on creating channels |
+| A note on creating channels |
 |:---------------------------|
 | You are free to create as many channels as you would like. However, channels dedicated to projects should be made public (not private) so people can collaborate or help you. Also be careful not to create redundant channels. |
-
+<br/>
 
 #### Configure your notifications
 Discord notifications are great, but they may bother you when you try to focus on your project. There are a lot of options for you to determine how and when you are informed about content – and at what level of granularity.
@@ -111,12 +116,13 @@ Discord notifications are great, but they may bother you when you try to focus o
 
 <details>
 
-<summary> :stars: GIF - To <b>change</b> notification settings :arrow_down: </summary>
-<img src="../../static/img/guide/discord_notification_settings.gif" alt="Notification settings"/>
+<summary> &#127776 GIF - To <b>change</b> notification settings &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_notification_settings.gif" alt="Notification settings"/>
 
 </details>
+<br/>
 
-
+<a name="3-Communicating-with-others"></a>
 ### 3. Communicating with others
 
 #### A FEW POINTS OF ETIQUETTE
@@ -127,10 +133,11 @@ Discord notifications are great, but they may bother you when you try to focus o
 
 <details>
 
-<summary> :stars: GIF - To <b>reply</b> to a message :arrow_down: </summary>
-<img src="../../static/img/guide/discord_reply.gif" alt="Reply to message"/>
+<summary> &#127776 GIF - To <b>reply</b> to a message &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_reply.gif" alt="Reply to message"/>
 
 </details>
+<br/>
 
 ##### Use @everyone, @here and other handles sparingly
 * If you type **@everyone** or **@here** or other general handles (**@instructors**) in a message that will send a notification to everyone in that channel. Please use this only for items that really do need everyone’s attention.
@@ -159,11 +166,11 @@ That said, DM are useful to discuss privately with other people (one or many) an
 
 <details>
 
-<summary> :stars: GIF - To <b>make</b> direct message :arrow_down: </summary>
-<img src="../../static/img/guide/discord_dm.gif" alt="Direct message"/>
+<summary> &#127776 GIF - To <b>make</b> direct message &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_dm.gif" alt="Direct message"/>
 
 </details>
-
+<br/>
 
 #### Sending files
 
@@ -191,7 +198,7 @@ You can find images for things like :brainhack:, etc.
 
 Take a look at them and feel free to [add more custom emoji](https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis) yourself.
 
-
+<a name="4-BrainHack-School-Features"></a>
 ### 4. BrainHack School Features
 
 We have set some useful features for you.

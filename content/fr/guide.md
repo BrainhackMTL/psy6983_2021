@@ -11,8 +11,8 @@ Nous avons fait quelques GIFs car un GIF vaut 5000 mots. Vous pourrez les voir e
 
 <details>
 
-<summary> :stars: GIF - Cliquer pour <b>afficher</b> ce GIF inutile :arrow_down: </summary>
-<img src="../../static/img/guide/useless_gif.webp" alt="GIF inutile"/>
+<summary> &#127776 GIF - Cliquer pour <b>afficher</b> ce GIF inutile &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/useless_gif.webp" alt="GIF inutile"/>
 
 </details>
 
@@ -36,6 +36,7 @@ Voici tout d'abord des raccourcis vers les principaux sujets de ce guide.
 
 Une question ? Posez la dans le salon `#help-general`.
 
+<a name="1-Configurez-votre-compte"></a>
 ### 1. Configurez votre compte
 
 #### PROFIL
@@ -47,10 +48,11 @@ Lorsque vous configurez votre profil, il y a deux choses à garder en tête:
 
 <details>
 
-<summary> :stars: GIF - Pour <b>éditer</b> votre profil :arrow_down: </summary>
-<img src="../../static/img/guide/discord_update_profile.gif" alt="Éditez votre profil"/>
+<summary> &#127776 GIF - Pour <b>éditer</b> votre profil &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_update_profile.gif" alt="Éditez votre profil"/>
 
 </details>
+<br/>
 
 #### STATUT
 
@@ -63,11 +65,13 @@ Vous pouvez supprimer un statut personnalisé à tout moment en cliquant sur vot
 
 <details>
 
-<summary> :stars: GIF - Pour <b>mettre à jour</b> votre statut :arrow_down: </summary>
-<img src="../../static/img/guide/discord_update_status.gif" alt="Mettre à jour votre statut"/>
+<summary> &#127776 GIF - Pour <b>mettre à jour</b> votre statut &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_update_status.gif" alt="Mettre à jour votre statut"/>
 
 </details>
+<br/>
 
+<a name="2-Salons-et-notifications"></a>
 ### 2. Salons et notifications
 
 #### Utiliser et créer des salons
@@ -80,14 +84,16 @@ Vous pouvez créer de nouvelles catégories ou de nouveaux salons pour des sujet
 
 <details>
 
-<summary> :stars: GIF - Pour <b>créer</b> un nouveau salon :arrow_down: </summary>
-<img src="../../static/img/guide/discord_create_channel.gif" alt="Créer un nouveau salon"/>
+<summary> &#127776 GIF - Pour <b>créer</b> un nouveau salon &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_create_channel.gif" alt="Créer un nouveau salon"/>
 
 </details>
+<br/>
 
-| :warning: Note sur la création de salons |
+| Note sur la création de salons |
 |:---------------------------|
 | Vous êtes libre de créer autant de salons que vous voulez. Ceci dit, les salons dédiés aux projets devraient être publiques afin que d'autres puissent facilement collaborer ou vous aider. Aussi faites attention à ne pas créer de salons redondants. |
+<br/>
 
 
 #### Configurer les notifications
@@ -108,12 +114,13 @@ Les notifications Discord sont super, mais elles peuvent devenir embêtantes lor
 
 <details>
 
-<summary> :stars: GIF - Pour <b>changer</b> les paramètres de notifications :arrow_down: </summary>
-<img src="../../static/img/guide/discord_notification_settings.gif" alt="Paramètres de notifications"/>
+<summary> &#127776 GIF - Pour <b>changer</b> les paramètres de notifications &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_notification_settings.gif" alt="Paramètres de notifications"/>
 
 </details>
+<br/>
 
-
+<a name="3-Communiquer-avec-les-autres"></a>
 ### 3. Communiquer avec les autres
 
 #### QUELQUES POINTS D'ÉTIQUETTE
@@ -124,10 +131,11 @@ Les notifications Discord sont super, mais elles peuvent devenir embêtantes lor
 
 <details>
 
-<summary> :stars: GIF - Pour <b>répondre</b> à un message :arrow_down: </summary>
-<img src="../../static/img/guide/discord_reply.gif" alt="Répondre à un message"/>
+<summary> &#127776 GIF - Pour <b>répondre</b> à un message &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_reply.gif" alt="Répondre à un message"/>
 
 </details>
+<br/>
 
 ##### Utiliser @everyone, @here et les autres mentions avec parcimonie
 * Si vous tapez **@everyone** ou **@here** ou une autre mention (**@instructors**) dans un message, cela va envoyer une notification à tout le monde (ou les personnes concernées). Veuillez utiliser ces mentions uniquement pour les messages qui nécessitent effectivement l'attention de tous.
@@ -155,10 +163,11 @@ Ceci dit, les messages directs sont utiles pour discuter sans encombrer les salo
 
 <details>
 
-<summary> :stars: GIF - Pour <b>envoyer</b> un message direct :arrow_down: </summary>
-<img src="../../static/img/guide/discord_dm.gif" alt="Direct message"/>
+<summary> &#127776 GIF - Pour <b>envoyer</b> un message direct &#11015 </summary>
+<img src="https://raw.githubusercontent.com/BrainhackMTL/psy6983_2021/master/static/img/guide/discord_dm.gif" alt="Direct message"/>
 
 </details>
+<br/>
 
 
 #### Envoyer des fichiers
@@ -187,7 +196,7 @@ Vous trouverez des images comme :brainhack:, etc.
 
 Vous êtes libre d'[ajouter plus d'emoji personnalisés](https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis).
 
-
+<a name="4-Particularités-BrainHack"></a>
 ### 4. Particularités BrainHack
 
 Quelques spécificités relatives au serveur BrainHack.
