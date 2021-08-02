@@ -33,7 +33,7 @@ The estimated time to complete this training module is 1.5h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [python data analysis](/modules/python_data_analysis) module (recommended for Python familiarity).
- * the [fmri_connectivity](/modules/fmri_connectivity) module 
+ * the [fmri connectivity](/modules/fmri_connectivity) module 
 
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -51,7 +51,7 @@ The video presentation is available here:
  * Download the notebook created for this module found [here](https://github.com/BrainhackMTL/psy6983_2021/edit/master/content/en/modules/fmri_parcellation/)
  * Run the notebook to view the parcellation for the atlas example.
  * Create new code blocks in your notebook and the example to retrive three other atlases using Nilearn datasets, the documentation for which you can find [here](https://nilearn.github.io/modules/reference.html#module-nilearn.datasets), and view the atlases in your notebook.
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Follow up with Désirée Lussier to and validate you completed the exercise.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
