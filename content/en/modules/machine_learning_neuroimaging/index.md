@@ -29,10 +29,13 @@ image: "regr_image.jpg"
 The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
- * installs
+ * installations
  * [introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
  * [introduction to machine learning ](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/) module
- * 
+
+Recommended but not mandatory : 
+ * [fmri connectivity ](https://psy6983.brainhackmtl.org/modules/fmri_connectivity/) module
+ * [fmri parcellation ](https://psy6983.brainhackmtl.org/modules/fmri_parcellation/) module
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -62,6 +65,7 @@ Using the same dataset
 
 ## More resources
 
+- Dataset used : https://openneuro.org/datasets/ds000228/versions/1.0.0
 - scikit-learn documentation (https://scikit-learn.org/stable/)
 - Python Data Science Handbook's chapter on machine learning by Jake VanderPlas is an excellent resource, althought not openly available online
 
