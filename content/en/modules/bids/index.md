@@ -44,8 +44,10 @@ The video of his presentation is available below:
 
 ## Exercise
  * Download a few subjects (n=3) from the dataset [DS000228](https://openneuro.org/datasets/ds000228/versions/1.1.0) on openneuro. Hint: the dataset is available with datalad from this [git](https://github.com/OpenNeuroDatasets/ds000228) repository.
- * Check that the resulting folder is a bids-compliant dataset.
- * Did you get any warnings? Explain what they are and whether they are a concern.
+ * Check that the resulting folder is a bids-compliant dataset using the bids validator (using a web browser or a local `npm` install). Did you get any warnings? Explain what they are and whether they are a concern.
+ * Install pybids. Use pybids to get a list of all BOLD `nii.gz` files for subject `pixar003`. In which folder did you find them? is it logical? You may want to have a look at the [BIDS documentation](https://bids.neuroimaging.io/) to familiarize yourself with the BIDS standard.
+ * Using pybids, get a list of the flip angles in `DS000228`.
+ * Clone a Midnight Brain Scan dataset from this [git](https://github.com/OpenNeuroDatasets/ds000224) repository. Use `pybids` to load the `participant.tsv` file as a pandas dataframe in python.
  * Follow up with Pierre Bellec to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
