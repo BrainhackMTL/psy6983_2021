@@ -29,9 +29,9 @@ image: "fMRI_connectivity.png"
 The estimated time to complete this training module is 4h.
 
 The prerequisites to take this module are:
- * the [installation](/modules/installation) module.
- * the [introduction to python for data analysis](/modules/python_data_analysis) module.
- * Introduction to machine learning
+ * installs
+ * [introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
+ * [introduction to machine learning ](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/) module
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
@@ -42,7 +42,7 @@ This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the
 The video of the presentation is available below (2h13):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2wj9OJjEDy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you need to resfresh some machine learning concepts before this tutorial, you can fid the link to the slides from the introduction to machine learning here: https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/IntroML_BrainHackSchool.pdf
+If you need to resfresh some machine learning concepts before this tutorial, you can find the link to the slides from the introduction to machine learning here: https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/IntroML_BrainHackSchool.pdf
 
 
 ## Exercise
@@ -51,13 +51,16 @@ If you need to resfresh some machine learning concepts before this tutorial, you
  * 2. Watch the video and test the code yourself
 
 Using the same dataset 
- * 
+ * Tweak the pipeline in the tutorial, by applying PCA to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+ * Implement cross-validation, but this time changing for leave-one-out.
+ * Plot the performance of the different polynomial fit (MSE) for train and test error. What do you observe?
+ * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This  especially relevant when we have > 2000 features as it is the case here! Apply a penalty to the SVC model by changing the default in argument. Refer to https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html. Compare with previous results.
  
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
--
-- Python Data Science Handbook's chapter on machine learning by Jake VanderPlas is an excellent resource, althought not openly available online
 - scikit-learn documentation (https://scikit-learn.org/stable/)
+- Python Data Science Handbook's chapter on machine learning by Jake VanderPlas is an excellent resource, althought not openly available online
+
