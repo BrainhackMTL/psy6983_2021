@@ -56,8 +56,8 @@ If you need to resfresh some machine learning concepts before this tutorial, you
 
 Using the same dataset 
  * Tweak the pipeline in the tutorial, by applying PCA to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
- * Implement cross-validation, but this time changing for leave-one-out.
- * What are the features we are using in this model? How did we go from (168, 64) to (64 x 64)?
+ * Implement cross-validation, but this time changing to leave-one-out.
+ * What are the features we are using in this model? What are the numbers representing for time series data (168, 64), and the connectivity matrix (64 x 64)?
  * Using the performance of the different polynomial fit (MSE) for train and test error, explain why increasing complexity of models does not necessarily lead to a better model. 
  * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This  especially relevant when we have > 2000 features ! Apply a penalty to the SVC model by changing the default in argument. Refer to https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html. Compare with previous results.
  
