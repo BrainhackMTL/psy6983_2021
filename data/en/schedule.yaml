@@ -450,16 +450,6 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Social (optional)
-      dateStart:  2021-08-04T17:00:00-04:00
-      dateEnd:    2021-08-04T19:00:00-04:00
-      description: At [Pub McCarold](https://pubmccarold.com/en/home/)
-      linktosession:  https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
   - date: 2021-08-05 # Thursday
     sessions:
     - title: Questions and exercises
@@ -507,6 +497,16 @@ schedule:
     - title: Free hacking
       dateStart:  2021-08-05T14:00:00-04:00
       dateEnd:    2021-08-05T17:00:00-04:00
+      linktosession:  https://zoom.us/j/96692571531
+      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
+      instructors:
+        - Jane Doe
+        - John Doe
+
+    - title: Social (optional)
+      dateStart:  2021-08-05T17:00:00-04:00
+      dateEnd:    2021-08-05T19:00:00-04:00
+      description: At [Pub McCarold](https://pubmccarold.com/en/home/)
       linktosession:  https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
       instructors:
@@ -677,7 +677,7 @@ schedule:
       dateEnd:    2021-08-11T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: 
+      description:
       materials: ""
       video: ""
       instructors:

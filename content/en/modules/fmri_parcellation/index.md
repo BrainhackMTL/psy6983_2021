@@ -22,7 +22,7 @@ summary: "The objectives of this module are to: 1) Understand the basis of the s
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "parcels.png"
+image: "parcellation.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -33,12 +33,12 @@ The estimated time to complete this training module is 1.5h.
 The prerequisites to take this module are:
  * the [installation](/modules/installation) module.
  * the [python data analysis](/modules/python_data_analysis) module (recommended for Python familiarity).
- * the [fmri_connectivity](/modules/fmri_connectivity) module 
+ * the [fmri connectivity](/modules/fmri_connectivity) module 
 
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-The first portion of this module was presented by Pierre Bellec during Brainhack School 2020
+The first portion of this module was presented by Pierre Bellec during Brainhack School 2020 and teh notebook was created by Desiree Lussier for this module.
 
 The tutorial slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing).
 
@@ -48,8 +48,10 @@ The video presentation is available here:
 ## Exercise
 
  * Watch the video presentation by Pierre Bellec and go over the slides.
- * (exercises to be added shortly)
- * Follow up with Désirée Lussier to validate you completed the exercise correctly.
+ * Download the notebook created for this module found [here](https://github.com/BrainhackMTL/psy6983_2021/edit/master/content/en/modules/fmri_parcellation/)
+ * Run the notebook to view the parcellation for the atlas example.
+ * Create new code blocks in your notebook and the example to retrive three other atlases using Nilearn datasets, the documentation for which you can find [here](https://nilearn.github.io/modules/reference.html#module-nilearn.datasets), and view the atlases in your notebook.
+ * Follow up with Désirée Lussier to and validate you completed the exercise.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources

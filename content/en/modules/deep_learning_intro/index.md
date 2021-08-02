@@ -20,7 +20,7 @@ summary: "The objectives of this module are to learn some of the fundementals of
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "deep_learning.png"
+image: "deeplearning.png"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -35,20 +35,23 @@ The prerequisites to take this module are:
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-The first portion of this module was presented by Richard Blake during Brainhack School 2020
+The first portion of this module was presented by Blake Richards during Brainhack School 2020
 
 The video presentation is available here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kpNI6or-qJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
 
- * Watch the video presentation by Richard Blake.
- * (exercises to be added shortly)
+ * Watch the video presentation by Blake Richards.
+ * Consider these statements/questions and answer them briefly in a saved doc:
+ * * Give an example of a research question that you could use deep learning to solve.
+ * * How would deep learning provide an advantage for solving the problem?
+ * * Give an example of a research question for which deep learning would not be appropriate.
+ * * What would be a disadvantage of deep learning compared to another method?
  * Follow up with Désirée Lussier to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
 
-https://pytorch.org/tutorials/
-https://www.deeplearningbook.org/
+You can check out the documentation on Pytorch and additional tutorials [here](https://pytorch.org/tutorials/). The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville is also freely available [here](https://www.deeplearningbook.org/)
 
