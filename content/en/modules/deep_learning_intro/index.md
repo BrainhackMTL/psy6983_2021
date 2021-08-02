@@ -35,15 +35,19 @@ The prerequisites to take this module are:
 Contact Desiree Lussier if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
 ## Resources
-The first portion of this module was presented by Richard Blake during Brainhack School 2020
+The first portion of this module was presented by Blake Richards during Brainhack School 2020
 
 The video presentation is available here:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kpNI6or-qJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
 
- * Watch the video presentation by Richard Blake.
- * (exercises to be added shortly)
+ * Watch the video presentation by Blake Richards.
+ * Consider these statements/questions and answer them briefly in a saved doc:
+ * * Give an example of a research question that you could use deep learning to solve.
+ * * How would deep learning provide an advantage for solving the problem?
+ * * Give an example of a research question for which deep learning would not be appropriate.
+ * * What would be a disadvantage of deep learning compared to another method?
  * Follow up with Désirée Lussier to validate you completed the exercise correctly.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
