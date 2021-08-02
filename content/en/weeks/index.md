@@ -52,7 +52,7 @@ Short exercises need to be completed at the end of each tutorial. Completing all
  There will still be time to work on training modules as well. You will be required to complete 3 out of the following modules:
   * [Introduction to deep learning](/modules/deep_learning_intro).
   * [Deep learning for neuroimaging](/modules/dl_for_neuroimaging).
-  * [Machine learning for neuroimaging](/modules/machine_learning_neuroimaging).
+  * [Machine learning for neuroimaging](/module/machine_learning_neuroimaging).
   * [Functional connectivity in fMRI](/modules/fmri_connectivity).
   * [Functional parcellations in fMRI](/modules/fmri_parcellation).
   * [The Brain Imaging Data Structure (BIDS) ecosystem](/modules/bids).
