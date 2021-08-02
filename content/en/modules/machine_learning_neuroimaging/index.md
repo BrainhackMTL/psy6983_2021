@@ -73,7 +73,7 @@ Using the same dataset
       
  * Using the performance of the different polynomial fit (MSE) for train and test error, try to explain why increasing complexity of models does not necessarily lead to a better model. 
  
- * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This  especially relevant when we have > 2000 features ! Apply a penalty to the SVC model by changing the default argument. Refer to https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html. Compare with previous results.
+ * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This especially relevant when we have > 2000 features ! Apply a penalty to the SVR model. Refer to the documentation https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVR.html. 
  
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
