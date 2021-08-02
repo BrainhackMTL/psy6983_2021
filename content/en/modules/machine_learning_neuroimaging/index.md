@@ -16,11 +16,11 @@ tags: [fMRI, machine learning, neuroimaging]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Application of machine learning to fMRI data analysis. In this module, we will go over extracting features and target, fitting the model to the data with cross-validation and tweaking our models."
+summary: "Application of machine learning to fMRI data analysis. In this module, we will go over extracting features (X) and target (y), fitting the model to the data with cross-validation and tweaking our models."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
-image: "fMRI_connectivity.png"
+image: "regr_image.jpg"
 ---
 <!-- This is an html comment and this won't appear in the rendered page. You are now editing the "content" area, the core of your description. Everything that you can do in markdown is allowed below. We added a couple of comments to guide your through documenting your progress. -->
 
@@ -32,6 +32,7 @@ The prerequisites to take this module are:
  * installs
  * [introduction to python for data analysis](https://psy6983.brainhackmtl.org/modules/python_data_analysis/) module.
  * [introduction to machine learning ](https://psy6983.brainhackmtl.org/modules/machine_learning_basics/) module
+ * 
 
 Contact Andréanne Proulx if you have questions on this module, or if you want to check that you completed successfully all the exercises.
 
