@@ -61,7 +61,7 @@ The video is available below:
 <br>
 <details>
 
-<summary> <h2> Bonus exercise (click to show) <h2/></summary>
+<summary> <h2> Bonus exercise (click to show &#11015) <h2/></summary>
 
 {{% content "content/en/modules/python_scripts/bonus_exercise.md" %}}
 
@@ -70,7 +70,7 @@ The video is available below:
 
 <details>
 
-<summary> <h2> On the usefulness of "if __name__ == '__main__':" (click to show) <h2/></summary>
+<summary> <h2> On the usefulness of "if __name__ == '__main__':" (click to show &#11015) <h2/></summary>
 
 It is not obvious why you shoud put the `if __name__ == "__main__":` line in your script. Indeed in a lot of cases, putting it or not won't change anything to how your code runs. But in specific settings with multiple scripts importing from each pother, not putting it in can quickly lead to a nightmare.
 To give you an insight of how and why it is useful, here is an example (if you don't want to read or if you want complementary explanations, here is [a nice youtube video](https://www.youtube.com/watch?v=g_wlZ9IhbTs) about it).
