@@ -53,6 +53,5 @@ The video presentation is available here:
 
 ## More resources
 
-https://pytorch.org/tutorials/
-https://www.deeplearningbook.org/
+You can check out the documentation on Pytorch and additional tutorials [here](https://pytorch.org/tutorials/). The Deep Learning Book by Ian Goodfellow and Yoshua Bengio and Aaron Courville is also freely available [here](https://www.deeplearningbook.org/)
 
