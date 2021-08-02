@@ -42,19 +42,22 @@ This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the
 The video of the presentation is available below (2h13):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2wj9OJjEDy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you need to resfresh some machine learning concepts before diving in, here is the link to slides: https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/IntroML_BrainHackSchool.pdf
-
+If you need to resfresh some machine learning concepts before this tutorial, you can fid the link to the slides from the introduction to machine learning here: https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/IntroML_BrainHackSchool.pdf
 
 
 ## Exercise
 
- * 1. Download the jupyter notebook
- * 2. Watch the video while trying out the commands yourself
- * 3.
+ * 1. Download the jupyter notebook, or start a new jupyter notebook 
+ * 2. Watch the video and test the code yourself
+
+Using the same dataset 
+ * 
  
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
 
 ## More resources
 
-
+-
+- Python Data Science Handbook's chapter on machine learning by Jake VanderPlas is an excellent resource, althought not openly available online
+- scikit-learn documentation (https://scikit-learn.org/stable/)
