@@ -47,7 +47,16 @@ Short exercises need to be completed at the end of each tutorial. Completing all
  * What objectives do you want to achieve with the project? e.g. find differences in connectivity between two groups, replicate a multimodal brain parcellation, etc.
  * What will be the outcome(s) of your project? a short proceedings paper, a new public dataset, a new feature in a toolbox, etc.
 
- Each project will be presented orally and in writing, with rounds of feedback, and revised by the end of week 2. This project description will count for 20% of the final grade."""
+ Each project will be presented orally and in writing, with rounds of feedback, and revised by the end of week 2. This project description will count for 20% of the final grade.
+
+ There will still be time to work on training modules as well. You will be required to complete 3 out of the following modules:
+  * [Introduction to deep learning](/modules/deep_learning_intro).
+  * [Deep learning for neuroimaging](/modules/dl_for_neuroimaging).
+  * [Functional connectivity in fMRI](/modules/fmri_connectivity).
+  * [Functional parcellations in fMRI](/modules/fmri_parcellation).
+  * [The Brain Imaging Data Structure (BIDS) ecosystem](/modules/bids).
+  * [DataLad for reproducible research data management](/modules/datalad).
+ """
 
 [[week]]
   week = "**Week 3**"
