@@ -69,7 +69,7 @@ Using the same dataset
         # First we create 10 splits of the data
         skf = KFold(n_splits=10, shuffle=True, random_state=123)
 
- * What are the features we are using in this model? What are the numbers representing, for shape of the time series (168, 64), shape of the connectivity matrix (64 x 64), and feature matrix (155, 2016)?
+ * What are the features we are using in this model? What are the numbers representing the shape of the time series (168, 64), the shape of the connectivity matrix (64 x 64), and of the feature matrix (155, 2016)?
       
  * Using the performance of the different polynomial fit (MSE) for train and test error, try to explain why increasing complexity of models does not necessarily lead to a better model. 
  
