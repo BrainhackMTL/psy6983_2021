@@ -43,7 +43,7 @@ The first portion of this module was presented by Pierre Bellec during Brainhack
 The tutorial slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing).
 
 The video presentation is available here:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7uMVRebuDZo&t=4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7uMVRebuDZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
 
