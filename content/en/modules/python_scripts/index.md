@@ -68,10 +68,12 @@ The video is available below:
 </details>
 <br>
 
-## On the usefulness of `if __name__ == "__main__":`
+<details>
+
+<summary> <h2> On the usefulness of "if __name__ == '__main__':" (click to show) <h2/></summary>
 
 It is not obvious why you shoud put the `if __name__ == "__main__":` line in your script. Indeed in a lot of cases, putting it or not won't change anything to how your code runs. But in specific settings with multiple scripts importing from each pother, not putting it in can quickly lead to a nightmare.
-To give you an insight of how and why it is useful, here is an example.
+To give you an insight of how and why it is useful, here is an example (if you don't want to read or if you want complementary explanations, here is [a nice youtube video](https://www.youtube.com/watch?v=g_wlZ9IhbTs) about it).
 
 Suppose you have a script to fit a Ridge model on provided data, judiciously named `fit_Ridge.py`, which looks like this :
 ```
@@ -175,6 +177,8 @@ Now when importing from this script, python will read the definition of the func
 
 In the end using `if __name__ == "__main__":` is the only way to safely import functions from our script, and since you never know for sure that you won't have to import something from a script in the future, putting it in all of your script by default is not a bad idea.
 
+</details>
+<br>
 
 ## More resources
 
