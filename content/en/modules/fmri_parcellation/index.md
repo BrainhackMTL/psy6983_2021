@@ -56,5 +56,5 @@ The video presentation is available here:
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
-
+You can watch my talk on dynamic parcellation (in French) [here](https://www.youtube.com/watch?v=5dA_ujGGtIY)
 
