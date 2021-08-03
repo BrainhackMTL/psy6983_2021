@@ -56,5 +56,4 @@ The video presentation is available here:
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
-You can watch my talk on dynamic parcellation (in French) [here](https://www.youtube.com/watch?v=5dA_ujGGtIY)
-
+You can watch my talk on dynamic parcellation (in French) [here](https://www.youtube.com/watch?v=5dA_ujGGtIY). If you are curious about how the embeddings of different parcellations compare you can check out my OHBM 2021 poster [here](https://drive.google.com/file/d/1O00bbKyI3Hqkah93iN83xpL10hMvygSt/view?usp=sharing) and check out Sebastian Urchs' paper on the MIST atlas [here](https://mniopenresearch.org/articles/1-3)
