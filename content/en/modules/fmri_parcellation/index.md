@@ -43,17 +43,17 @@ The first portion of this module was presented by Pierre Bellec during Brainhack
 The tutorial slides are available [here](https://docs.google.com/presentation/d/1mTJoOSRKtGzhWeNLa9PXyKUYA0p9733UHVWrmIyi4zs/edit?usp=sharing).
 
 The video presentation is available here:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7uMVRebuDZo&t=4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7uMVRebuDZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Exercise
 
  * Watch the video presentation by Pierre Bellec and go over the slides.
- * Download the notebook created for this module found [here](https://github.com/BrainhackMTL/psy6983_2021/edit/master/content/en/modules/fmri_parcellation/)
+ * Download the notebook created for this module found [here](https://github.com/BrainhackMTL/psy6983_2021/blob/master/content/en/modules/fmri_parcellation/atlas_parcellations.ipynb)
  * Run the notebook to view the parcellation for the atlas example.
  * Create new code blocks in your notebook and the example to retrive three other atlases using Nilearn datasets, the documentation for which you can find [here](https://nilearn.github.io/modules/reference.html#module-nilearn.datasets), and view the atlases in your notebook.
+ * Answer the discussion at the bottom of the notebook in the markdown block provided and save.
  * Follow up with Désirée Lussier to and validate you completed the exercise.
  * 🎉 🎉 🎉 you completed this training module! 🎉 🎉 🎉
 
 ## More resources
-
-
+You can watch my talk on dynamic parcellation (in French) [here](https://www.youtube.com/watch?v=5dA_ujGGtIY). If you are curious about how the embeddings of different parcellations compare you can check out my OHBM 2021 poster [here](https://drive.google.com/file/d/1O00bbKyI3Hqkah93iN83xpL10hMvygSt/view?usp=sharing) and check out Sebastian Urchs' paper on the MIST atlas [here](https://mniopenresearch.org/articles/1-3)

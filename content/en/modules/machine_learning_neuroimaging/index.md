@@ -55,11 +55,25 @@ If you need to resfresh some machine learning concepts before this tutorial, you
  * 2. Watch the video and test the code yourself
 
 Using the same dataset 
- * Tweak the pipeline in the tutorial, by applying PCA to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
- * Implement cross-validation, but this time changing to leave-one-out.
- * What are the features we are using in this model? What are the numbers representing for time series data (168, 64), and the connectivity matrix (64 x 64)?
- * Using the performance of the different polynomial fit (MSE) for train and test error, explain why increasing complexity of models does not necessarily lead to a better model. 
- * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This  especially relevant when we have > 2000 features ! Apply a penalty to the SVC model by changing the default in argument. Refer to https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html. Compare with previous results.
+ * Tweak the pipeline in the tutorial, by applying PCA , keeping 90% of the variance, instead of SelectPercentile to reduce the dimensionality of features (feature selection). Refer to scikit-learn documentation. https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+
+  
+        model = Pipeline([
+        ('feature_selection',SelectPercentile(f_regression,percentile=20)),
+        ('prediction', l_svr)
+                      ])
+
+
+ * Implement cross-validation, but this time changing to leave-one-out. Here is to give an idea as to where changes need to be made in the code.
+
+        # First we create 10 splits of the data
+        skf = KFold(n_splits=10, shuffle=True, random_state=123)
+
+ * What are the features we are using in this model? What are the numbers representing the shape of the time series (168, 64), the shape of the connectivity matrix (64 x 64), and of the feature matrix (155, 2016)?
+      
+ * Using the performance of the different polynomial fit (MSE) for train and test error, try to explain why increasing complexity of models does not necessarily lead to a better model. 
+ 
+ * Remember we talked about regularization in the introduction to machine learning? Variance of model estimation increases when there are more features than samples. This especially relevant when we have > 2000 features ! Apply a penalty to the SVR model. Refer to the documentation https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVR.html. 
  
  * Follow up with Andréanne Proulx to validate you completed the exercise correctly.
  * :tada: :tada: :tada: you completed this training module! :tada: :tada: :tada:
