@@ -2,7 +2,7 @@
 type: "modules" # DON'T TOUCH THIS ! :)
 
 # Title of your project (we like creative title)
-title: "Machine learning for neuroimaging"
+title: "Introduction to data visualization in Python"
 
 # Your project GitHub repository URL
 github_repo:
@@ -12,11 +12,11 @@ website:
 
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
-tags: [fMRI, machine learning, neuroimaging]
+tags: [visualization, python, matplotlib, seaborn, plotly]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "Application of machine learning to fMRI data analysis. In this module, we will go over extracting features (X) and target (y), fitting the model to the data with cross-validation and tweaking our models."
+summary: "In this module, we will introduce the basics of plotting in python using some of most commonly used packages such as matplotlib and seaborn."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
