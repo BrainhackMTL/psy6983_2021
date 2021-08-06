@@ -56,6 +56,7 @@ Using the same dataset
    -  https://github.com/neurohackademy/visualization-in-python/blob/master/visualization-in-python.ipynb
    -  https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb
    -  https://github.com/rougier/matplotlib-tutorial
+   -  https://github.com/neurohackweek/visualization-in-python
 
 - Interactive plotting 
    - https://plotly.com/python/
