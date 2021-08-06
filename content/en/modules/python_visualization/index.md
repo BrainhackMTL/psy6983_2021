@@ -64,5 +64,3 @@ Using the same dataset
    
 - Example gallery
    - https://seaborn.pydata.org/examples/index.html
-- 
-
