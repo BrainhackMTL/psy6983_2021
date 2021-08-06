@@ -51,16 +51,17 @@ Using the same dataset
 
 ## More resources
 
-- Other great resources to get started:
--  https://dartbrains.org/content/Introduction_to_Plotting.html#
--  https://github.com/neurohackademy/visualization-in-python/blob/master/visualization-in-python.ipynb
--  https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb
--  https://github.com/rougier/matplotlib-tutorial
+- Other great resources to get started with plotting in python:
+   -  https://dartbrains.org/content/Introduction_to_Plotting.html#
+   -  https://github.com/neurohackademy/visualization-in-python/blob/master/visualization-in-python.ipynb
+   -  https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb
+   -  https://github.com/rougier/matplotlib-tutorial
 
 - Interactive plotting 
    - https://plotly.com/python/
    - https://docs.bokeh.org/en/latest/index.html
    - https://altair-viz.github.io/
+   
 - Example gallery
    - https://seaborn.pydata.org/examples/index.html
 - 
