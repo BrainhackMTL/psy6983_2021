@@ -47,43 +47,47 @@ The video of the presentation is available below (1h09):
  * 2. Watch the video and test the code yourself
 
 ## Exercice
+For this next part, we will refer to the following [notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_intro.ipynb)
 
 For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic data [data dowload](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). Thus please download the dataset from the linked resource providing your NITRC credentials.
 
-Let's read this from the Web using Pandas. We explicitly specify that missing values are noted in the dataset as 'n/a'.
+1. **Read through the notebook running all the cells**
+2. Complete the exercices in the notebook
 
-     # import librairies
-     %matplotlib inline
-     import matplotlib.pyplot as plt
-     import numpy as np
-     import pandas as pd
+**Exercice 1** Create a figure with a single axes and replot the second scatterplot to group by sex instead of dx_group.
 
- * Create a figure with a single axes and replot the second scatterplot to group by sex instead of dx_group.
-         
-         Set the figure size to a ratio of 8 (wide) x 5 (height)
-         Use the colors red and gray
-         Set the opacity of the points to 0.5
-         Label the axes
-         Add a legend
- *
-Using the same dataset 
+       Set the figure size to a ratio of 8 (wide) x 5 (height)
+       Use the colors red and gray
+       Set the opacity of the points to 0.5
+       Label the axes
+       Add a legend
+     
+**Exercice 2** Using a pairwise plot, compare the distributions of age, viq, and piq with respect to dx_group.
 
+        Set a palette
+        Set style to ticks
+        Set context to paper
+        Suppress the dx_group variable from being on the plot
+        
+**Exercice 3** Using a violin plot separate out viq as a function of sex and dx_group.
+
+         Different dx_group should be on each half of each violin
+         The x-axis should reflect the different sex categories.
 
 ## More resources
 
 - Other great resources to get started with plotting in python:
-   -  https://dartbrains.org/content/Introduction_to_Plotting.html#
-   -  https://github.com/neurohackademy/visualization-in-python/blob/master/visualization-in-python.ipynb
-   -  https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb
-   -  https://github.com/rougier/matplotlib-tutorial
-   -  https://github.com/neurohackweek/visualization-in-python
+   -  [dartbrains](https://dartbrains.org/content/Introduction_to_Plotting.html)
+   -  [neurohackademy](https://github.com/neurohackademy/visualization-in-python/blob/master/visualization-in-python.ipynb)
+   -  [PythonDataScienceHandbook](https://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/04.00-Introduction-To-Matplotlib.ipynb)
+   -  [matplolib tutorial - rougier](https://github.com/rougier/matplotlib-tutorial)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FwM_6oZo_2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Interactive plotting 
-   - https://plotly.com/python/
-   - https://docs.bokeh.org/en/latest/index.html
-   - https://altair-viz.github.io/
+   - [Plotly](https://plotly.com/python/)
+   - [Bokeh](https://docs.bokeh.org/en/latest/index.html)
+   - [Altair](https://altair-viz.github.io/)
    
-- Example gallery
-   - https://seaborn.pydata.org/examples/index.html
+- Gallery
+   - [seaborn gallery](https://seaborn.pydata.org/examples/index.html)
