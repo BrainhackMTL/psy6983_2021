@@ -672,7 +672,7 @@ schedule:
 
   - date: 2021-08-11 # Wednesday
     sessions:
-    - title: Presentation TBD
+    - title: Project clinic
       dateStart:  2021-08-11T09:00:00-04:00
       dateEnd:    2021-08-11T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
@@ -723,24 +723,14 @@ schedule:
         - Jane Doe
         - John Doe
 
-    - title: Social (optional)
-      dateStart:  2021-08-11T17:00:00-04:00
-      dateEnd:    2021-08-11T19:00:00-04:00
-      description: At CRIUGM - food provided!
-      linktosession:  https://zoom.us/j/96692571531
-      topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      instructors:
-        - Jane Doe
-        - John Doe
-
   - date: 2021-08-12 # Thursday
     sessions:
-    - title: Questions and exercises
+    - title: Presentation by Dr Angela Tam
       dateStart:  2021-08-12T09:00:00-04:00
       dateEnd:    2021-08-12T10:00:00-04:00
       linktosession: https://zoom.us/j/96692571531
       topic: 3 # 1 = computer science, 2 = neuroscience, 3 - both, 4 = random
-      description: Time for asking questions on the modules, and validate solutions to exercises.
+      description: 
       materials: ""
       video: ""
       instructors:
