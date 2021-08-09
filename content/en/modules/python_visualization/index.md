@@ -52,7 +52,7 @@ For this next part, we will refer to the following [notebook](https://github.com
 For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic data [data dowload](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). Thus please download the dataset from the linked resource providing your NITRC credentials.
 
 1. **Read through the notebook running all the cells**
-2. Complete the exercices in the notebook
+2. **Complete the exercices in the notebook**
 
 **Exercice 1** Create a figure with a single axes and replot the second scatterplot to group by sex instead of dx_group.
 
@@ -71,8 +71,8 @@ For example purposes, we will make use of a phenotypic dataset from the ABIDE II
         
 **Exercice 3** Using a violin plot separate out viq as a function of sex and dx_group.
 
-         Different dx_group should be on each half of each violin
-         The x-axis should reflect the different sex categories.
+        Different dx_group should be on each half of each violin
+        The x-axis should reflect the different sex categories.
 
 ## More resources
 
