@@ -48,7 +48,7 @@ The video of the presentation is available below (1h09):
 
 ## Exercice
 
-For this next part, we will refer to the following [notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_intro.ipynb)
+For this next part, we will refer to the following [notebook](https://github.com/BrainhackMTL/psy6983_2021/blob/master/content/en/modules/python_visualization/python_visualization_intro.ipynb)
 
 For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic  [data](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). Thus please download the dataset from the linked resource providing your NITRC credentials. If you don't have one, you can create an account.
 
