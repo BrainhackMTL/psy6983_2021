@@ -78,6 +78,8 @@ Using the same dataset
    -  https://github.com/rougier/matplotlib-tutorial
    -  https://github.com/neurohackweek/visualization-in-python
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FwM_6oZo_2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 - Interactive plotting 
    - https://plotly.com/python/
    - https://docs.bokeh.org/en/latest/index.html
