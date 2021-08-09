@@ -75,6 +75,8 @@ For example purposes, we will make use of a phenotypic dataset from the ABIDE II
         Different dx_group should be on each half of each violin
         The x-axis should reflect the different sex categories.
 
+**Exercise 4** Play around and make an interactive plot using plotly and your project data if you have any.
+
 ## More resources
 
 - Other great resources to get started with plotting in python:
