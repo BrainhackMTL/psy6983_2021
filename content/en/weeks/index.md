@@ -72,7 +72,7 @@ Short exercises need to be completed at the end of each tutorial. Completing all
 
   * Work on projects. Most of the time will be reserved to actually doing the work.
   * Project clinics. Get daily feedback and support from instructors and residents.
-  * Presentation. Dr [Angela Tam]() is going to visit the school and share with us her journey inside and outside of academia.
+  * Presentation. Dr [Angela Tam](https://angela-tam.github.io/about/) is going to visit the school and share with us her journey inside and outside of academia.
   * Collaborate. Take time each day to help someone else with their project.
 
   Time to work on training modules is minimal. You will be required to complete 1 out of the following modules:
@@ -80,7 +80,7 @@ Short exercises need to be completed at the end of each tutorial. Completing all
    * [Python packaging](/modules/packaging).
    * [Testing and continuous integration](/modules/testing).
    * [Containers](/modules/containers).
-   
+
 """
 
 [[week]]
