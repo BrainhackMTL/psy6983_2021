@@ -43,8 +43,8 @@ The video of the presentation is available below (1h09):
 
 ## Tutorial
 
- * 1. Download the jupyter notebook (save raw version from Github), or start a new jupyter notebook 
- * 2. Watch the video and test the code yourself
+ * Download the jupyter notebook (save raw version from Github), or start a new jupyter notebook 
+ * Watch the video and  run the cells in the notebook
 
 ## Exercice
 For this next part, we will refer to the following [notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_intro.ipynb)
