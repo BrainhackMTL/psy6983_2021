@@ -36,16 +36,36 @@ Contact Andréanne Proulx if you have questions on this module, or if you want t
 
 
 ## Resources
-This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the slides are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/03-intro-to-machine-learning/ML_Regression_Tutorial.ipynb).
+This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the slides are available [here]().
 
 The video of the presentation is available below (1h09):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJyFWTT7sCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Exercise
+## Tutorial
 
  * 1. Download the jupyter notebook (save raw version from Github), or start a new jupyter notebook 
  * 2. Watch the video and test the code yourself
 
+## Exercice
+
+For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic data [data dowload](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). Thus please download the dataset from the linked resource providing your NITRC credentials.
+
+Let's read this from the Web using Pandas. We explicitly specify that missing values are noted in the dataset as 'n/a'.
+
+     # import librairies
+     %matplotlib inline
+     import matplotlib.pyplot as plt
+     import numpy as np
+     import pandas as pd
+
+ * Create a figure with a single axes and replot the second scatterplot to group by sex instead of dx_group.
+         
+         Set the figure size to a ratio of 8 (wide) x 5 (height)
+         Use the colors red and gray
+         Set the opacity of the points to 0.5
+         Label the axes
+         Add a legend
+ *
 Using the same dataset 
 
 
