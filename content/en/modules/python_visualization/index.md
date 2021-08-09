@@ -36,7 +36,7 @@ Contact Andréanne Proulx if you have questions on this module, or if you want t
 
 
 ## Resources
-This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the slides are available [here]().
+This module was presented by Jacob Vogel during the QLSC 612 course in 2020, the slides are available [here](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_for_data.ipynb).
 
 The video of the presentation is available below (1h09):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJyFWTT7sCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
