@@ -47,14 +47,15 @@ The video of the presentation is available below (1h09):
  * Watch the video and  run the cells in the notebook
 
 ## Exercice
+
 For this next part, we will refer to the following [notebook](https://github.com/neurodatascience/course-materials-2020/blob/master/lectures/14-may/01-data-visualization/python_visualization_intro.ipynb)
 
-For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic data [data dowload](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). Thus please download the dataset from the linked resource providing your NITRC credentials.
+For example purposes, we will make use of a phenotypic dataset from the ABIDE II consortium. This amazing international multi-site dataset contains data from individuals diagnosed with Autism Spectrum Disorder (ASD) and healthy controls. We will use a version of the phenotypic data [data download](http://fcon_1000.projects.nitrc.org/indi/abide/abide_II.html) from a single site (Kennedy Krieger Institute). Thus please download the dataset from the linked resource providing your NITRC credentials.
 
 1. **Read through the notebook running all the cells**
-2. **Complete the exercices in the notebook**
+2. **Complete the exercises in the notebook**
 
-**Exercice 1** Create a figure with a single axes and replot the second scatterplot to group by sex instead of dx_group.
+**Exercise 1** Create a figure with a single axes and replot the second scatterplot to group by sex instead of dx_group.
 
        Set the figure size to a ratio of 8 (wide) x 5 (height)
        Use the colors red and gray
@@ -62,14 +63,14 @@ For example purposes, we will make use of a phenotypic dataset from the ABIDE II
        Label the axes
        Add a legend
      
-**Exercice 2** Using a pairwise plot, compare the distributions of age, viq, and piq with respect to dx_group.
+**Exercise 2** Using a pairwise plot, compare the distributions of age, viq, and piq with respect to dx_group.
 
         Set a palette
         Set style to ticks
         Set context to paper
         Suppress the dx_group variable from being on the plot
         
-**Exercice 3** Using a violin plot separate out viq as a function of sex and dx_group.
+**Exercise 3** Using a violin plot separate out viq as a function of sex and dx_group.
 
         Different dx_group should be on each half of each violin
         The x-axis should reflect the different sex categories.
