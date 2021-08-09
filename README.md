@@ -1,5 +1,5 @@
 # Brainhack School
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0cd08655-9ad0-49be-ae4f-7e1cd78ebe33/deploy-status)](https://app.netlify.com/sites/pedantic-perlman-78c464/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0cd08655-9ad0-49be-ae4f-7e1cd78ebe33/deploy-status)](https://app.netlify.com/sites/suspicious-golick-ab329b/deploys?filter=master)
 
 This is the website of the brainhack school, built with [hugo](https://gohugo.io/), and deployed with [netlify](https://www.netlify.com/). 
 
