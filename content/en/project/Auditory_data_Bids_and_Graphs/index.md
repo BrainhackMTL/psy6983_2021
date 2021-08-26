@@ -168,6 +168,11 @@ Unfortunately, it was not possible to create a machine learning task script on t
 
 ### Exemple of interactive HTML audiogram
 
+<iframe
+  src="./Sub-01_PTA_All_runs.html"
+  style="width:100%; height:300px;"
+></iframe>
+
 ![Sub-01_PTA_All_runs.html](./Sub-01_PTA_All_runs.html)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FPTA_sample_figure_generator.ipynb)
