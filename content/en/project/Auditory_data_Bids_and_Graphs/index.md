@@ -169,17 +169,18 @@ Unfortunately, it was not possible to create a machine learning task script on t
 ### Exemple of interactive HTML audiogram
 
 <iframe
-  src="https://github.com/eddyfortier/psy6983_2021/tree/master/content/en/project/Auditory_data_Bids_and_Graphs/Sub-01_PTA_All_runs.html"
+  src="https://raw.githubusercontent.com/eddyfortier/psy6983_2021/master/content/en/project/Auditory_data_Bids_and_Graphs/Sub-01_PTA_All_runs.html"
   style="width:100%; height:500px;"
 ></iframe>
-
-![Sub-01_PTA_All_runs.html](https://github.com/eddyfortier/psy6983_2021/tree/master/content/en/project/Auditory_data_Bids_and_Graphs/Sub-01_PTA_All_runs.html)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FPTA_sample_figure_generator.ipynb)
 
 ### Exemple of Matrix test interactive HTML graph
 
-![Sub-01_MTX_L1_French_All_runs.html](https://github.com/eddyfortier/psy6983_2021/tree/master/content/en/project/Auditory_data_Bids_and_Graphs/Sub-01_MTX_L1_French_All_runs.html)
+<iframe
+  src="https://raw.githubusercontent.com/eddyfortier/psy6983_2021/master/content/en/project/Auditory_data_Bids_and_Graphs/Sub-01_MTX_L1_French_All_runs.html"
+  style="width:100%; height:500px;"
+></iframe>
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FMTX_sample_figure_generator.ipynb)
 
