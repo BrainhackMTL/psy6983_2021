@@ -168,15 +168,15 @@ Unfortunately, it was not possible to create a machine learning task script on t
 
 ### Exemple of interactive HTML audiogram
 
-![Sub-01_PTA_All_runs.html](Sub-01_PTA_All_runs.html)
+![Sub-01_PTA_All_runs.html](./Sub-01_PTA_All_runs.html)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FPTA_sample_figure_generator.ipynb {:target="\_blank"})
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FPTA_sample_figure_generator.ipynb)
 
 ### Exemple of Matrix test interactive HTML graph
 
-![Sub-01_MTX_L1_French_All_runs.html](Sub-01_MTX_L1_French_All_runs.html)
+![Sub-01_MTX_L1_French_All_runs.html](./Sub-01_MTX_L1_French_All_runs.html)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FMTX_sample_figure_generator.ipynb){:target="_blank"}
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PSY6983-2021/fortier_project/HEAD?filepath=code%2FMTX_sample_figure_generator.ipynb)
 
 ## Conclusion
 
