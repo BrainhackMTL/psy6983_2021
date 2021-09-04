@@ -37,11 +37,6 @@ image: ""
 
 
 
-<a href="https://github.com/lalou97">
-   <img src="https://avatars.githubusercontent.com/u/87998890?v=4" width="100px;" alt=""/>
-   <br /><sub><b>Laurence Grenier</b></sub>
-</a>
-
 * * * 
 
 # Project Definition 
@@ -106,7 +101,7 @@ image: ""
 #### Here's all the coordinates of the sample in the brain.
 ### - Green : Needs 
 ### - Red : Wants 
-![coordinates gif!](./All_coordinates_Enregistrement d’écran, le 2021-09-02 à 15.32.05.gif)
+![coordinates gif!](./All_coordinates.gif)
 
 
 ### Deliverables 
@@ -126,7 +121,7 @@ image: ""
 #### - Apply a mask to select the voxels of the grey matter. I used the [MNI152 mask](https://nilearn.github.io/modules/generated/nilearn.datasets.load_mni152_brain_mask.html)
 
 ##### Here is an example of a MA maps with the mask:
-![Ma map example!](./MA map of the first study-need.png)
+![Ma map example!](./MA_map_first_study-need.png)
 
 
 ### Machine learning 
@@ -136,7 +131,7 @@ image: ""
 
 ##### Finally, the model predicted the data with an accuracy of 83.3 ± 16.6 %. 
 #### There are the confusion matrices that shows the results:
-![Confusion matrice](./Confusion Matrices.png)
+![Confusion matrice](./Confusion-Matrices.png)
 
 #### Interpretation 
 ##### Even if the accuracy is quite good, because the dataset contains more *needs* than *wants*, the model have initially more than 50% of accuracy if it classifies all the datas into *needs*. Therefore, we should be careful with the interpretation of that accuracy value. This also explains why the model never classifies the *needs* into *wants* and why it is only making errors by classifying the *wants* into *needs*. A solution to overcome this problem would be to balance the weight of the different conditions according to the proportions in the dataset. 
@@ -164,7 +159,7 @@ image: ""
 ##### Finally, I've started this course without a significant background in coding and a little fear about it (I admit). One of my motivation to do brainhack school was to demystify this field in order to be ready to make great neuroscience! I'm glad I did it, learned python and many useful packages to analyse and play with neuroimaging datas. 
 
 ##### I really want to thank BrainHack School team for their remarkable competence and exceptional support during all the course! 
-![Thank you!](./Capture d’écran, le 2021-09-03 à 17.18.42)
+![Thank you!](./Thank_you)
 
 
 ### References 
