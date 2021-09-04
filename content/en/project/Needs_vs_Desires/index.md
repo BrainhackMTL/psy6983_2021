@@ -64,7 +64,7 @@ image: ""
 ###### [Acar, F et al.,2018](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177)
 
 
-[![ALE description!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Step-by-step-overview-of-the-ALE-algorithm-From-an-entire-Statistical-Parametric-Map.png)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177) 
+[![ALE description!](./Step-by-step-overview-of-the-ALE-algorithm-From-an-entire-Statistical-Parametric-Map.png)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177) 
 
 
 
@@ -106,7 +106,7 @@ image: ""
 #### Here's all the coordinates of the sample in the brain.
 ### - Green : Needs 
 ### - Red : Wants 
-![coordinates gif!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/All_coordinates_Enregistrement%20d%E2%80%99e%CC%81cran%2C%20le%202021-09-02%20a%CC%80%2015.32.05%20(1).gif)
+![coordinates gif!](./All_coordinates_Enregistrement d’écran, le 2021-09-02 à 15.32.05.gif)
 
 
 ### Deliverables 
@@ -119,14 +119,14 @@ image: ""
 # Results 
 * * * 
 #### Summary
-![Brief description!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Model_description.png)
+![Brief description!](./Model_description)
 
 ### Data preparation 
 #### - Transform all of the activation peaks of each study into a MA map with [nimare](https://nimare.readthedocs.io/en/latest/about.html).This ended up with 71 MA map, because 71 studies had been included.
 #### - Apply a mask to select the voxels of the grey matter. I used the [MNI152 mask](https://nilearn.github.io/modules/generated/nilearn.datasets.load_mni152_brain_mask.html)
 
 ##### Here is an example of a MA maps with the mask:
-![Ma map example!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/MA%20map%20of%20the%20first%20study-need.png)
+![Ma map example!](./MA map of the first study-need.png)
 
 
 ### Machine learning 
@@ -136,7 +136,7 @@ image: ""
 
 ##### Finally, the model predicted the data with an accuracy of 83.3 ± 16.6 %. 
 #### There are the confusion matrices that shows the results:
-![Confusion matrice](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Confusion%20Matrices.png) 
+![Confusion matrice](./Confusion Matrices.png)
 
 #### Interpretation 
 ##### Even if the accuracy is quite good, because the dataset contains more *needs* than *wants*, the model have initially more than 50% of accuracy if it classifies all the datas into *needs*. Therefore, we should be careful with the interpretation of that accuracy value. This also explains why the model never classifies the *needs* into *wants* and why it is only making errors by classifying the *wants* into *needs*. A solution to overcome this problem would be to balance the weight of the different conditions according to the proportions in the dataset. 
@@ -147,7 +147,7 @@ image: ""
 
 #### Features importance
 ##### There you can see the most contributing features on the brain. The more the region is *yellow clear*, the more changes in the value of that voxel influence the decision of the model. 
-![Feature importance](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/feature_importance.gif) 
+![Feature importance](./feature_importance.gif)
 
 
 ## Tools I learned during this project 
@@ -164,7 +164,7 @@ image: ""
 ##### Finally, I've started this course without a significant background in coding and a little fear about it (I admit). One of my motivation to do brainhack school was to demystify this field in order to be ready to make great neuroscience! I'm glad I did it, learned python and many useful packages to analyse and play with neuroimaging datas. 
 
 ##### I really want to thank BrainHack School team for their remarkable competence and exceptional support during all the course! 
-![Thank you!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Capture%20d%E2%80%99e%CC%81cran%2C%20le%202021-09-03%20a%CC%80%2017.18.42.png)
+![Thank you!](./Capture d’écran, le 2021-09-03 à 17.18.42)
 
 
 ### References 
