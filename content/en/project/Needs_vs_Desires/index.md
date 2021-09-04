@@ -114,7 +114,7 @@ image: ""
 # Results 
 * * * 
 #### Summary
-![Brief description!](./Model_description)
+![Brief description!](./Model_description.png)
 
 ### Data preparation 
 #### - Transform all of the activation peaks of each study into a MA map with [nimare](https://nimare.readthedocs.io/en/latest/about.html).This ended up with 71 MA map, because 71 studies had been included.
@@ -159,7 +159,7 @@ image: ""
 ##### Finally, I've started this course without a significant background in coding and a little fear about it (I admit). One of my motivation to do brainhack school was to demystify this field in order to be ready to make great neuroscience! I'm glad I did it, learned python and many useful packages to analyse and play with neuroimaging datas. 
 
 ##### I really want to thank BrainHack School team for their remarkable competence and exceptional support during all the course! 
-![Thank you!](./Thank_you)
+![Thank you!](./Thank_you.png)
 
 
 ### References 
