@@ -111,9 +111,9 @@ By the end of The BrainHack School, we aimed to have the following:
 
 ### Lili El Khalil's progress review
 
-A script that helped in building a BIDS format for organizing our data. As I divided my data into subject, which are the participants. 
-Then for each subject the number of sessions they participated and in each session we have the four tests done. The four tests are : Tymp, Reflex, PTA and MTX. 
-At the lower level, in each test folders, you can find the results obtained for each run of the test. 
+A script that helped in building a BIDS format for organizing our data. As I divided my data into subject, which are the participants.
+Then for each subject the number of sessions they participated and in each session we have the four tests done. The four tests are : Tymp, Reflex, PTA and MTX.
+At the lower level, in each test folders, you can find the results obtained for each run of the test.
 
 #### Tools and skills that were developped during this project
 
@@ -135,7 +135,7 @@ The notebook contains the code used in order to be able to create BIDS compatibl
 
 <b>README.md</b>
 
-This README.md file contains all the project details done by each one of us 
+This README.md file contains all the project details done by each one of us
 
 ### Mr. Fortier's progress overview
 
@@ -169,7 +169,7 @@ Unfortunately, it was not possible to create a machine learning task script on t
 ### Exemple of interactive HTML audiogram
 
 <iframe
-  src="https://raw.githubusercontent.com/eddyfortier/psy6983_2021/master/content/en/project/Auditory_data_Bids_and_Graphs/Sub-01_PTA_All_runs.html"
+  src="Sub-01_PTA_All_runs.html"
   style="width:100%; height:500px;"
 ></iframe>
 
@@ -178,7 +178,7 @@ Unfortunately, it was not possible to create a machine learning task script on t
 ### Exemple of Matrix test interactive HTML graph
 
 <iframe
-  src="https://raw.githubusercontent.com/eddyfortier/psy6983_2021/master/content/en/project/Auditory_data_Bids_and_Graphs/Sub-01_MTX_L1_French_All_runs.html"
+  src="Sub-01_MTX_L1_French_All_runs.html"
   style="width:100%; height:500px;"
 ></iframe>
 
