@@ -169,7 +169,7 @@ Unfortunately, it was not possible to create a machine learning task script on t
 ### Exemple of interactive HTML audiogram
 
 <iframe
-  src="/static/html/Sub-01_PTA_All_runs.html"
+  src="/html/Sub-01_PTA_All_runs.html"
   style="width:100%; height:500px;"
 ></iframe>
 
@@ -178,7 +178,7 @@ Unfortunately, it was not possible to create a machine learning task script on t
 ### Exemple of Matrix test interactive HTML graph
 
 <iframe
-  src="/static/html/Sub-01_MTX_L1_French_All_runs.html"
+  src="/html/Sub-01_MTX_L1_French_All_runs.html"
   style="width:100%; height:500px;"
 ></iframe>
 
